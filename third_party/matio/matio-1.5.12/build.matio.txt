@@ -1,0 +1,80 @@
+Making all in src
+make[1]: Entering directory `/users/banspach/oss/matio/matio-1.5.12/src'
+make  all-am
+make[2]: Entering directory `/users/banspach/oss/matio/matio-1.5.12/src'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o snprintf.lo snprintf.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c snprintf.c  -fPIC -DPIC -o .libs/snprintf.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c snprintf.c -o snprintf.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o endian.lo endian.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c endian.c  -fPIC -DPIC -o .libs/endian.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c endian.c -o endian.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o io.lo io.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c io.c  -fPIC -DPIC -o .libs/io.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c io.c -o io.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o inflate.lo inflate.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c inflate.c  -fPIC -DPIC -o .libs/inflate.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c inflate.c -o inflate.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o read_data.lo read_data.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c read_data.c  -fPIC -DPIC -o .libs/read_data.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c read_data.c -o read_data.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o mat5.lo mat5.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c mat5.c  -fPIC -DPIC -o .libs/mat5.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c mat5.c -o mat5.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o mat4.lo mat4.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c mat4.c  -fPIC -DPIC -o .libs/mat4.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c mat4.c -o mat4.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o mat.lo mat.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c mat.c  -fPIC -DPIC -o .libs/mat.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c mat.c -o mat.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o matvar_cell.lo matvar_cell.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c matvar_cell.c  -fPIC -DPIC -o .libs/matvar_cell.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c matvar_cell.c -o matvar_cell.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I.    -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o matvar_struct.lo matvar_struct.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c matvar_struct.c  -fPIC -DPIC -o .libs/matvar_struct.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I. -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c matvar_struct.c -o matvar_struct.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I.  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -no-undefined -export-symbols ./matio.sym -version-info 8:1:4   -o libmatio.la -rpath /usr/local/lib snprintf.lo endian.lo io.lo inflate.lo read_data.lo mat5.lo mat4.lo mat.lo matvar_cell.lo matvar_struct.lo   -L/users/banspach/oss/third_party/zlib/zlib-1.2.11/lib -lz -lm 
+libtool: link: echo "{ global:" > .libs/libmatio.ver
+libtool: link:  cat ./matio.sym | sed -e "s/\(.*\)/\1;/" >> .libs/libmatio.ver
+libtool: link:  echo "local: *; };" >> .libs/libmatio.ver
+libtool: link:  gcc -shared  -fPIC -DPIC  .libs/snprintf.o .libs/endian.o .libs/io.o .libs/inflate.o .libs/read_data.o .libs/mat5.o .libs/mat4.o .libs/mat.o .libs/matvar_cell.o .libs/matvar_struct.o   -L/users/banspach/oss/third_party/zlib/zlib-1.2.11/lib -lz -lm  -O2   -Wl,-soname -Wl,libmatio.so.4 -Wl,-version-script -Wl,.libs/libmatio.ver -o .libs/libmatio.so.4.4.1
+.libs/mat.o: In function `Mat_VarDelete':
+/users/banspach/oss/matio/matio-1.5.12/src/mat.c:1023: warning: the use of `mktemp' is dangerous, better use `mkstemp'
+libtool: link: (cd ".libs" && rm -f "libmatio.so.4" && ln -s "libmatio.so.4.4.1" "libmatio.so.4")
+libtool: link: (cd ".libs" && rm -f "libmatio.so" && ln -s "libmatio.so.4.4.1" "libmatio.so")
+libtool: link: ar cru .libs/libmatio.a  snprintf.o endian.o io.o inflate.o read_data.o mat5.o mat4.o mat.o matvar_cell.o matvar_struct.o
+libtool: link: ranlib .libs/libmatio.a
+libtool: link: ( cd ".libs" && rm -f "libmatio.la" && ln -s "../libmatio.la" "libmatio.la" )
+make[2]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12/src'
+make[1]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12/src'
+Making all in getopt
+make[1]: Entering directory `/users/banspach/oss/matio/matio-1.5.12/getopt'
+/bin/sh ../libtool  --tag=CC   --mode=compile gcc -DHAVE_CONFIG_H -I. -I../src    -DREPLACE_GETOPT=1 -g -O2 -c -o libgetopt_la-getopt_long.lo `test -f 'getopt_long.c' || echo './'`getopt_long.c
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../src -DREPLACE_GETOPT=1 -g -O2 -c getopt_long.c  -fPIC -DPIC -o .libs/libgetopt_la-getopt_long.o
+libtool: compile:  gcc -DHAVE_CONFIG_H -I. -I../src -DREPLACE_GETOPT=1 -g -O2 -c getopt_long.c -o libgetopt_la-getopt_long.o >/dev/null 2>&1
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -DREPLACE_GETOPT=1 -g -O2   -o libgetopt.la  libgetopt_la-getopt_long.lo  -lm 
+libtool: link: ar cru .libs/libgetopt.a .libs/libgetopt_la-getopt_long.o 
+libtool: link: ranlib .libs/libgetopt.a
+libtool: link: ( cd ".libs" && rm -f "libgetopt.la" && ln -s "../libgetopt.la" "libgetopt.la" )
+make[1]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12/getopt'
+Making all in tools
+make[1]: Entering directory `/users/banspach/oss/matio/matio-1.5.12/tools'
+gcc -DHAVE_CONFIG_H -I. -I../src    -I../src -I../getopt  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2 -c -o matdump.o matdump.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../src -I../getopt  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include  -g -O2    -o matdump matdump.o ../src/libmatio.la  -L/users/banspach/oss/third_party/zlib/zlib-1.2.11/lib -lz ../getopt/libgetopt.la -lm 
+libtool: link: gcc -I../src -I../getopt -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -o .libs/matdump matdump.o  ../src/.libs/libmatio.so -L/users/banspach/oss/third_party/zlib/zlib-1.2.11/lib -lz ../getopt/.libs/libgetopt.a -lm -Wl,-rpath -Wl,/usr/local/lib
+make[1]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12/tools'
+Making all in test
+make[1]: Entering directory `/users/banspach/oss/matio/matio-1.5.12/test'
+gcc -DHAVE_CONFIG_H -I. -I../src    -I../src -I../getopt  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c -o test_mat.o test_mat.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../src -I../getopt  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -L../src  -o test_mat test_mat.o ../src/libmatio.la ../getopt/libgetopt.la  -L/users/banspach/oss/third_party/zlib/zlib-1.2.11/lib -lz -lm 
+libtool: link: gcc -I../src -I../getopt -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -o .libs/test_mat test_mat.o  -L../src ../src/.libs/libmatio.so ../getopt/.libs/libgetopt.a -L/users/banspach/oss/third_party/zlib/zlib-1.2.11/lib -lz -lm -Wl,-rpath -Wl,/usr/local/lib
+gcc -DHAVE_CONFIG_H -I. -I../src    -I../src -I../getopt  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -c -o test_snprintf.o test_snprintf.c
+/bin/sh ../libtool  --tag=CC   --mode=link gcc -I../src -I../getopt  -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2   -o test_snprintf test_snprintf.o  -lm 
+libtool: link: gcc -I../src -I../getopt -I/users/banspach/oss/third_party/zlib/zlib-1.2.11/include -g -O2 -o test_snprintf test_snprintf.o  -lm
+make[1]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12/test'
+Making all in documentation
+make[1]: Entering directory `/users/banspach/oss/matio/matio-1.5.12/documentation'
+make[1]: Nothing to be done for `all'.
+make[1]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12/documentation'
+make[1]: Entering directory `/users/banspach/oss/matio/matio-1.5.12'
+make[1]: Nothing to be done for `all-am'.
+make[1]: Leaving directory `/users/banspach/oss/matio/matio-1.5.12'

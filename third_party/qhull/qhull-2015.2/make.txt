@@ -1,0 +1,587 @@
+mkdir -p bin lib
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/rbox/rbox.o src/rbox/rbox.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/global.o src/libqhull/global.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/stat.o src/libqhull/stat.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/geom2.o src/libqhull/geom2.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/poly2.o src/libqhull/poly2.c
+src/libqhull/poly2.c: In function ‘qh_delridge’:
+src/libqhull/poly2.c:1127:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/merge.o src/libqhull/merge.c
+src/libqhull/merge.c: In function ‘qh_all_merges’:
+src/libqhull/merge.c:219:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;  /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull/merge.c: In function ‘qh_appendmergeset’:
+src/libqhull/merge.c:322:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+src/libqhull/merge.c: In function ‘qh_mergecycle_ridges’:
+src/libqhull/merge.c:2091:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/libqhull.o src/libqhull/libqhull.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/geom.o src/libqhull/geom.c
+src/libqhull/geom.c: In function ‘qh_projectpoint’:
+src/libqhull/geom.c:897:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+src/libqhull/geom.c: In function ‘qh_setfacetplane’:
+src/libqhull/geom.c:935:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/poly.o src/libqhull/poly.c
+src/libqhull/poly.c: In function ‘qh_delfacet’:
+src/libqhull/poly.c:248:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull/poly.c: In function ‘qh_makenew_nonsimplicial’:
+src/libqhull/poly.c:564:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull/poly.c: In function ‘qh_newfacet’:
+src/libqhull/poly.c:987:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+src/libqhull/poly.c: In function ‘qh_newridge’:
+src/libqhull/poly.c:1020:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;   /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/qset.o src/libqhull/qset.c
+src/libqhull/qset.c: In function ‘qh_setfree’:
+src/libqhull/qset.c:718:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;  /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull/qset.c: In function ‘qh_setnew’:
+src/libqhull/qset.c:928:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/mem.o src/libqhull/mem.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/random.o src/libqhull/random.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/usermem.o src/libqhull/usermem.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/userprintf.o src/libqhull/userprintf.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/io.o src/libqhull/io.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/user.o src/libqhull/user.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/rboxlib.o src/libqhull/rboxlib.c
+src/libqhull/rboxlib.c: In function ‘qh_rboxpoints’:
+src/libqhull/rboxlib.c:95:7: warning: variable ‘dim’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int dim=3, numpoints=0, totpoints, addpoints=0;
+       ^
+src/libqhull/rboxlib.c:95:38: warning: variable ‘addpoints’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int dim=3, numpoints=0, totpoints, addpoints=0;
+                                      ^
+src/libqhull/rboxlib.c:96:7: warning: variable ‘issphere’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+       ^
+src/libqhull/rboxlib.c:96:19: warning: variable ‘isaxis’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+                   ^
+src/libqhull/rboxlib.c:96:30: warning: variable ‘iscdd’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+                              ^
+src/libqhull/rboxlib.c:96:39: warning: variable ‘islens’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+                                       ^
+src/libqhull/rboxlib.c:96:49: warning: variable ‘isregular’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+                                                 ^
+src/libqhull/rboxlib.c:96:62: warning: variable ‘iswidth’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+                                                              ^
+src/libqhull/rboxlib.c:96:73: warning: variable ‘addcube’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd=0, islens=0, isregular=0, iswidth=0, addcube=0;
+                                                                         ^
+src/libqhull/rboxlib.c:97:16: warning: variable ‘isspiral’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isgap=0, isspiral=0, NOcommand=0, adddiamond=0;
+                ^
+src/libqhull/rboxlib.c:97:28: warning: variable ‘NOcommand’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isgap=0, isspiral=0, NOcommand=0, adddiamond=0;
+                            ^
+src/libqhull/rboxlib.c:97:41: warning: variable ‘adddiamond’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isgap=0, isspiral=0, NOcommand=0, adddiamond=0;
+                                         ^
+src/libqhull/rboxlib.c:98:7: warning: variable ‘israndom’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int israndom=0, istime=0;
+       ^
+src/libqhull/rboxlib.c:98:19: warning: variable ‘istime’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int israndom=0, istime=0;
+                   ^
+src/libqhull/rboxlib.c:99:7: warning: variable ‘isbox’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+       ^
+src/libqhull/rboxlib.c:99:16: warning: variable ‘issimplex’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+                ^
+src/libqhull/rboxlib.c:99:29: warning: variable ‘issimplex2’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+                             ^
+src/libqhull/rboxlib.c:99:43: warning: variable ‘ismesh’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+                                           ^
+src/libqhull/rboxlib.c:102:20: warning: variable ‘simplex’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   double *coordp, *simplex= NULL, *simplexp;
+                    ^
+src/libqhull/rboxlib.c:104:39: warning: variable ‘lensangle’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   double norm, factor, randr, rangap, lensangle=0, lensbase=1;
+                                       ^
+src/libqhull/rboxlib.c:104:52: warning: variable ‘lensbase’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   double norm, factor, randr, rangap, lensangle=0, lensbase=1;
+                                                    ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic/userprintf_rbox.o src/libqhull/userprintf_rbox.c
+==========================================
+==== If ar fails, try make qhullx ====
+==========================================
+ar -rs lib/libqhullstatic.a src/libqhullstatic/global.o src/libqhullstatic/stat.o src/libqhullstatic/geom2.o src/libqhullstatic/poly2.o src/libqhullstatic/merge.o src/libqhullstatic/libqhull.o src/libqhullstatic/geom.o src/libqhullstatic/poly.o src/libqhullstatic/qset.o src/libqhullstatic/mem.o src/libqhullstatic/random.o src/libqhullstatic/usermem.o src/libqhullstatic/userprintf.o src/libqhullstatic/io.o src/libqhullstatic/user.o src/libqhullstatic/rboxlib.o src/libqhullstatic/userprintf_rbox.o
+ar: creating lib/libqhullstatic.a
+#If 'ar -rs' fails try using 'ar -s' with 'ranlib'
+#ranlib lib/libqhullstatic.a
+gcc -o bin/rbox src/rbox/rbox.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/qconvex/qconvex.o src/qconvex/qconvex.c
+gcc -o bin/qconvex src/qconvex/qconvex.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/qdelaunay/qdelaun.o src/qdelaunay/qdelaun.c
+gcc -o bin/qdelaunay src/qdelaunay/qdelaun.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/qhalf/qhalf.o src/qhalf/qhalf.c
+gcc -o bin/qhalf src/qhalf/qhalf.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/qvoronoi/qvoronoi.o src/qvoronoi/qvoronoi.c
+gcc -o bin/qvoronoi src/qvoronoi/qvoronoi.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/qhull/unix_r.o src/qhull/unix_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/global_r.o src/libqhull_r/global_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/stat_r.o src/libqhull_r/stat_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/geom2_r.o src/libqhull_r/geom2_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/poly2_r.o src/libqhull_r/poly2_r.c
+src/libqhull_r/poly2_r.c: In function ‘qh_delridge’:
+src/libqhull_r/poly2_r.c:1127:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/merge_r.o src/libqhull_r/merge_r.c
+src/libqhull_r/merge_r.c: In function ‘qh_all_merges’:
+src/libqhull_r/merge_r.c:219:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;  /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull_r/merge_r.c: In function ‘qh_appendmergeset’:
+src/libqhull_r/merge_r.c:322:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+src/libqhull_r/merge_r.c: In function ‘qh_mergecycle_ridges’:
+src/libqhull_r/merge_r.c:2090:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/libqhull_r.o src/libqhull_r/libqhull_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/geom_r.o src/libqhull_r/geom_r.c
+src/libqhull_r/geom_r.c: In function ‘qh_projectpoint’:
+src/libqhull_r/geom_r.c:897:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+src/libqhull_r/geom_r.c: In function ‘qh_setfacetplane’:
+src/libqhull_r/geom_r.c:935:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/poly_r.o src/libqhull_r/poly_r.c
+src/libqhull_r/poly_r.c: In function ‘qh_delfacet’:
+src/libqhull_r/poly_r.c:248:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull_r/poly_r.c: In function ‘qh_makenew_nonsimplicial’:
+src/libqhull_r/poly_r.c:564:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull_r/poly_r.c: In function ‘qh_newfacet’:
+src/libqhull_r/poly_r.c:987:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+src/libqhull_r/poly_r.c: In function ‘qh_newridge’:
+src/libqhull_r/poly_r.c:1020:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;   /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/qset_r.o src/libqhull_r/qset_r.c
+src/libqhull_r/qset_r.c: In function ‘qh_setfree’:
+src/libqhull_r/qset_r.c:718:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;  /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull_r/qset_r.c: In function ‘qh_setnew’:
+src/libqhull_r/qset_r.c:928:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/mem_r.o src/libqhull_r/mem_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/random_r.o src/libqhull_r/random_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/usermem_r.o src/libqhull_r/usermem_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/userprintf_r.o src/libqhull_r/userprintf_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/io_r.o src/libqhull_r/io_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/user_r.o src/libqhull_r/user_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/rboxlib_r.o src/libqhull_r/rboxlib_r.c
+src/libqhull_r/rboxlib_r.c: In function ‘qh_rboxpoints’:
+src/libqhull_r/rboxlib_r.c:77:7: warning: variable ‘dim’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int dim=3 , numpoints= 0, totpoints, addpoints=0;
+       ^
+src/libqhull_r/rboxlib_r.c:77:40: warning: variable ‘addpoints’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int dim=3 , numpoints= 0, totpoints, addpoints=0;
+                                        ^
+src/libqhull_r/rboxlib_r.c:78:7: warning: variable ‘issphere’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+       ^
+src/libqhull_r/rboxlib_r.c:78:19: warning: variable ‘isaxis’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+                   ^
+src/libqhull_r/rboxlib_r.c:78:30: warning: variable ‘iscdd’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+                              ^
+src/libqhull_r/rboxlib_r.c:78:40: warning: variable ‘islens’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+                                        ^
+src/libqhull_r/rboxlib_r.c:78:51: warning: variable ‘isregular’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+                                                   ^
+src/libqhull_r/rboxlib_r.c:78:64: warning: variable ‘iswidth’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+                                                                ^
+src/libqhull_r/rboxlib_r.c:78:75: warning: variable ‘addcube’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int issphere=0, isaxis=0,  iscdd= 0, islens= 0, isregular=0, iswidth=0, addcube=0;
+                                                                           ^
+src/libqhull_r/rboxlib_r.c:79:16: warning: variable ‘isspiral’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isgap=0, isspiral=0, NOcommand= 0, adddiamond=0;
+                ^
+src/libqhull_r/rboxlib_r.c:79:28: warning: variable ‘NOcommand’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isgap=0, isspiral=0, NOcommand= 0, adddiamond=0;
+                            ^
+src/libqhull_r/rboxlib_r.c:79:42: warning: variable ‘adddiamond’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isgap=0, isspiral=0, NOcommand= 0, adddiamond=0;
+                                          ^
+src/libqhull_r/rboxlib_r.c:80:7: warning: variable ‘israndom’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int israndom=0, istime=0;
+       ^
+src/libqhull_r/rboxlib_r.c:80:19: warning: variable ‘istime’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int israndom=0, istime=0;
+                   ^
+src/libqhull_r/rboxlib_r.c:81:7: warning: variable ‘isbox’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+       ^
+src/libqhull_r/rboxlib_r.c:81:16: warning: variable ‘issimplex’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+                ^
+src/libqhull_r/rboxlib_r.c:81:29: warning: variable ‘issimplex2’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+                             ^
+src/libqhull_r/rboxlib_r.c:81:43: warning: variable ‘ismesh’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   int isbox=0, issimplex=0, issimplex2=0, ismesh=0;
+                                           ^
+src/libqhull_r/rboxlib_r.c:84:20: warning: variable ‘simplex’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   double *coordp, *simplex= NULL, *simplexp;
+                    ^
+src/libqhull_r/rboxlib_r.c:86:39: warning: variable ‘lensangle’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   double norm, factor, randr, rangap, lensangle= 0, lensbase= 1;
+                                       ^
+src/libqhull_r/rboxlib_r.c:86:53: warning: variable ‘lensbase’ might be clobbered by ‘longjmp’ or ‘vfork’ [-Wclobbered]
+   double norm, factor, randr, rangap, lensangle= 0, lensbase= 1;
+                                                     ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhullstatic_r/userprintf_rbox_r.o src/libqhull_r/userprintf_rbox_r.c
+ar -rs lib/libqhullstatic_r.a src/libqhullstatic_r/global_r.o src/libqhullstatic_r/stat_r.o src/libqhullstatic_r/geom2_r.o src/libqhullstatic_r/poly2_r.o src/libqhullstatic_r/merge_r.o src/libqhullstatic_r/libqhull_r.o src/libqhullstatic_r/geom_r.o src/libqhullstatic_r/poly_r.o src/libqhullstatic_r/qset_r.o src/libqhullstatic_r/mem_r.o src/libqhullstatic_r/random_r.o src/libqhullstatic_r/usermem_r.o src/libqhullstatic_r/userprintf_r.o src/libqhullstatic_r/io_r.o src/libqhullstatic_r/user_r.o src/libqhullstatic_r/rboxlib_r.o src/libqhullstatic_r/userprintf_rbox_r.o
+ar: creating lib/libqhullstatic_r.a
+#ranlib lib/libqhullstatic_r.a
+gcc -o bin/qhull src/qhull/unix_r.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic_r -lm
+chmod +x eg/q_test eg/q_eg eg/q_egtest
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/testqset/testqset.o src/testqset/testqset.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhull/qset.o src/libqhull/qset.c
+src/libqhull/qset.c: In function ‘qh_setfree’:
+src/libqhull/qset.c:718:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;  /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull/qset.c: In function ‘qh_setnew’:
+src/libqhull/qset.c:928:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhull/mem.o src/libqhull/mem.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhull/usermem.o src/libqhull/usermem.c
+gcc -o bin/testqset src/testqset/testqset.o src/libqhull/qset.o src/libqhull/mem.o src/libqhull/usermem.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/testqset_r/testqset_r.o src/testqset_r/testqset_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhull_r/qset_r.o src/libqhull_r/qset_r.c
+src/libqhull_r/qset_r.c: In function ‘qh_setfree’:
+src/libqhull_r/qset_r.c:718:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp;  /* used if !qh_NOmem by qh_memfree_() */
+          ^
+src/libqhull_r/qset_r.c: In function ‘qh_setnew’:
+src/libqhull_r/qset_r.c:928:10: warning: variable ‘freelistp’ set but not used [-Wunused-but-set-variable]
+   void **freelistp; /* used if !qh_NOmem by qh_memalloc_() */
+          ^
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhull_r/mem_r.o src/libqhull_r/mem_r.c
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/libqhull_r/usermem_r.o src/libqhull_r/usermem_r.c
+gcc -o bin/testqset_r src/testqset_r/testqset_r.o src/libqhull_r/qset_r.o src/libqhull_r/mem_r.o src/libqhull_r/usermem_r.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -lm
+============================================
+== make qtest ==============================
+============================================
+== Thu Jun  6 15:45:14 EDT 2019
+
+============================================
+== Test non-reentrant qset.c with mem.c ====
+============================================
+bin/testqset 10000
+qh_meminitbuffers: memory initialized with alignment 8
+SETelemsize is 8 bytes for pointer-to-int
+
+
+Testing qh_setappend 0..9999.  Test i0 i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i100 i1000 i9999
+
+Testing qh_settruncate 5000 and 0.  Test n0
+
+Testing qh_setappend2ndlast 0,0..9999.  Test 0 i0 i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i100 i1000 i9999
+
+Testing SETtruncate_ 5000 and 0.  Test n0
+
+Testing qh_setdelnthsorted and qh_setaddnth 1..9999. Test j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setappend_set 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setcompact and qh_setcopy 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setequal*, qh_setin*, qh_setdel, qh_setdelnth, and qh_setlarger 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_settemp* 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setlast, qh_setnew_delnthsorted, qh_setunique, and qh_setzero 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setdel*, qh_setaddsorted, and  0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+qh_memcheck: check size of freelists on qhmem
+qh_memcheck: A segmentation fault indicates an overwrite of qhmem
+qh_memcheck: total size of freelists totfree is the same as qhmem.totfree
+
+
+Not testing qh_setduplicate and qh_setfree2.
+  These routines use heap-allocated set contents.  See qhull tests.
+
+memory statistics:
+     53 quick allocations
+      9 short allocations
+   8334 long allocations
+     61 short frees
+   8334 long frees
+     40 bytes of short memory in use
+    272 bytes of short memory in freelists
+ 130752 bytes of dropped short memory
+      0 bytes of unused short memory (estimated)
+ 211096 bytes of long memory allocated (max, except for input)
+      0 bytes of long memory in use (in 0 pieces)
+ 131064 bytes of short memory buffers (minus links)
+  65536 bytes per short memory buffer (initially 131072 bytes)
+   1148 calls to qh_setlarger
+5.5e+02     average copy size
+  freelists(bytes->count): 16->0 24->2 32->2 40->4
+
+
+testqset: OK
+
+
+============================================
+== Test reentrant qset_r.c with mem_r.c ====
+============================================
+bin/testqset_r 10000
+qh_meminitbuffers: memory initialized with alignment 8
+SETelemsize is 8 bytes for pointer-to-int
+
+
+Testing qh_setappend 0..9999.  Test i0 i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i100 i1000 i9999
+
+Testing qh_settruncate 5000 and 0.  Test n0
+
+Testing qh_setappend2ndlast 0,0..9999.  Test 0 i0 i1 i2 i3 i4 i5 i6 i7 i8 i9 i10 i100 i1000 i9999
+
+Testing SETtruncate_ 5000 and 0.  Test n0
+
+Testing qh_setdelnthsorted and qh_setaddnth 1..9999. Test j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setappend_set 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setcompact and qh_setcopy 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setequal*, qh_setin*, qh_setdel, qh_setdelnth, and qh_setlarger 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_settemp* 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setlast, qh_setnew_delnthsorted, qh_setunique, and qh_setzero 0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+
+Testing qh_setdel*, qh_setaddsorted, and  0..9999. Test j0 j1 j2 j3 j4 j5 j6 j7 j8 j9 j10 j100 j1000 j9999
+qh_memcheck: check size of freelists on qh->qhmem
+qh_memcheck: A segmentation fault indicates an overwrite of qh->qhmem
+qh_memcheck: total size of freelists totfree is the same as qh->qhmem.totfree
+
+
+Not testing qh_setduplicate and qh_setfree2.
+  These routines use heap-allocated set contents.  See qhull tests.
+
+memory statistics:
+     53 quick allocations
+      9 short allocations
+   8334 long allocations
+     61 short frees
+   8334 long frees
+     40 bytes of short memory in use
+    272 bytes of short memory in freelists
+ 130752 bytes of dropped short memory
+      0 bytes of unused short memory (estimated)
+ 211096 bytes of long memory allocated (max, except for input)
+      0 bytes of long memory in use (in 0 pieces)
+ 131064 bytes of short memory buffers (minus links)
+  65536 bytes per short memory buffer (initially 131072 bytes)
+   1148 calls to qh_setlarger
+5.5e+02     average copy size
+  freelists(bytes->count): 16->0 24->2 32->2 40->4
+
+
+testqset_r: OK
+
+
+============================================
+== Run the qhull smoketest ====
+============================================
+bin/rbox D4 | bin/qhull Tv
+
+Starting the rbox smoketest for qhull.  An immediate failure indicates
+that non-reentrant rbox was linked to reentrant routines.  An immediate
+failure of qhull may indicate that qhull was linked to the wrong
+qhull library.  Also try 'rbox D4 | qhull T1'
+
+Output completed.  Verifying that all points are below 2.8e-15 of
+all facets.  Will make 13000 distance computations.
+
+Convex hull of 50 points in 4-d:
+
+  Number of vertices: 50
+  Number of facets: 260
+
+Statistics for: rbox D4 | qhull Tv
+
+  Number of points processed: 50
+  Number of hyperplanes created: 712
+  Number of distance tests for qhull: 1433
+  CPU seconds to compute hull (after input):  0
+
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/user_eg2/user_eg2_r.o src/user_eg2/user_eg2_r.c
+
+
+===================================================
+== user_eg2 links to  qhullstatic_r.  It may use libqhull_r instead.
+===================================================
+
+gcc -o bin/user_eg2 src/user_eg2/user_eg2_r.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -Llib -lqhullstatic_r -lm
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/user_eg3/user_eg3_r.o src/user_eg3/user_eg3_r.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/RoadError.o src/libqhullcpp/RoadError.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/RoadLogEvent.o src/libqhullcpp/RoadLogEvent.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/Coordinates.o src/libqhullcpp/Coordinates.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/PointCoordinates.o src/libqhullcpp/PointCoordinates.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/Qhull.o src/libqhullcpp/Qhull.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullFacet.o src/libqhullcpp/QhullFacet.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullFacetList.o src/libqhullcpp/QhullFacetList.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullFacetSet.o src/libqhullcpp/QhullFacetSet.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullHyperplane.o src/libqhullcpp/QhullHyperplane.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullPoint.o src/libqhullcpp/QhullPoint.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullPoints.o src/libqhullcpp/QhullPoints.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullPointSet.o src/libqhullcpp/QhullPointSet.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullQh.o src/libqhullcpp/QhullQh.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullRidge.o src/libqhullcpp/QhullRidge.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullSet.o src/libqhullcpp/QhullSet.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullStat.o src/libqhullcpp/QhullStat.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullVertex.o src/libqhullcpp/QhullVertex.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/QhullVertexSet.o src/libqhullcpp/QhullVertexSet.cpp
+g++ -c -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -o src/libqhullcpp/RboxPoints.o src/libqhullcpp/RboxPoints.cpp
+ar -rs lib/libqhullcpp.a src/libqhullcpp/RoadError.o src/libqhullcpp/RoadLogEvent.o src/libqhullcpp/Coordinates.o src/libqhullcpp/PointCoordinates.o src/libqhullcpp/Qhull.o src/libqhullcpp/QhullFacet.o src/libqhullcpp/QhullFacetList.o src/libqhullcpp/QhullFacetSet.o src/libqhullcpp/QhullHyperplane.o src/libqhullcpp/QhullPoint.o src/libqhullcpp/QhullPoints.o src/libqhullcpp/QhullPointSet.o src/libqhullcpp/QhullQh.o src/libqhullcpp/QhullRidge.o src/libqhullcpp/QhullSet.o src/libqhullcpp/QhullStat.o src/libqhullcpp/QhullVertex.o src/libqhullcpp/QhullVertexSet.o src/libqhullcpp/RboxPoints.o
+ar: creating lib/libqhullcpp.a
+#ranlib lib/libqhullcpp.a
+g++ -o bin/user_eg3 src/user_eg3/user_eg3_r.o -O3 -Isrc/ -Wall -Wcast-qual -Wextra -Wwrite-strings -Wno-sign-conversion -Wshadow -Wconversion  -Llib -lqhullcpp -lqhullstatic_r -lm
+gcc -c -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow -o src/user_eg/user_eg_r.o src/user_eg/user_eg_r.c
+gcc -shared -o lib/libqhull_r.so.7.2.0  src/libqhullstatic_r/global_r.o src/libqhullstatic_r/stat_r.o src/libqhullstatic_r/geom2_r.o src/libqhullstatic_r/poly2_r.o src/libqhullstatic_r/merge_r.o src/libqhullstatic_r/libqhull_r.o src/libqhullstatic_r/geom_r.o src/libqhullstatic_r/poly_r.o src/libqhullstatic_r/qset_r.o src/libqhullstatic_r/mem_r.o src/libqhullstatic_r/random_r.o src/libqhullstatic_r/usermem_r.o src/libqhullstatic_r/userprintf_r.o src/libqhullstatic_r/io_r.o src/libqhullstatic_r/user_r.o src/libqhullstatic_r/rboxlib_r.o src/libqhullstatic_r/userprintf_rbox_r.o
+cd lib && ln -f -s libqhull_r.so.7.2.0 libqhull_r.so
+
+
+===================================================
+== If user_eg fails to link on MinGW or Cygwin, use
+==   "make SO=dll" and copy lib/libqhull_r.dll to bin/
+== Otherwise if user_eg fails to link, switch to -lqhullstatic_r
+===================================================
+
+gcc -o bin/user_eg src/user_eg/user_eg_r.o -O3 -ansi -Isrc -fpic -Wall -Wcast-qual -Wextra -Wwrite-strings -Wshadow  -Llib -lqhull_r -lm
+bin/qconvex
+
+qconvex- compute the convex hull.  Qhull 2015.2 2016/01/18
+    input (stdin): dimension, number of points, point coordinates
+    comments start with a non-numeric character
+
+options (qconvex.htm):
+    Qt   - triangulated output
+    QJ   - joggled input instead of merged facets
+    Tv   - verify result: structure, convexity, and point inclusion
+    .    - concise list of all options
+    -    - one-line description of all options
+    -V   - version
+
+output options (subset):
+    s    - summary of results (default)
+    i    - vertices incident to each facet
+    n    - normals with offsets
+    p    - vertex coordinates (includes coplanar points if 'Qc')
+    Fx   - extreme points (convex hull vertices)
+    FA   - report total area and volume
+    FS   - compute total area and volume
+    o    - OFF format (dim, n, points, facets)
+    G    - Geomview output (2-d, 3-d, and 4-d)
+    m    - Mathematica output (2-d and 3-d)
+    QVn  - print facets that include point n, -n if not
+    TO file- output results to file, may be enclosed in single quotes
+
+examples:
+    rbox c D2 | qconvex s n                    rbox c D2 | qconvex i
+    rbox c D2 | qconvex o                      rbox 1000 s | qconvex s Tv FA
+    rbox c d D2 | qconvex s Qc Fx              rbox y 1000 W0 | qconvex s n
+    rbox y 1000 W0 | qconvex s QJ              rbox d G1 D12 | qconvex QR0 FA Pp
+    rbox c D7 | qconvex FA TF1000
+
+
+============================================
+== Run the qconvex smoketest
+============================================
+bin/rbox D4 | bin/qconvex Tv
+
+Starting the rbox smoketest for qhull.  An immediate failure indicates
+that non-reentrant rbox was linked to reentrant routines.  An immediate
+failure of qhull may indicate that qhull was linked to the wrong
+qhull library.  Also try 'rbox D4 | qhull T1'
+
+Output completed.  Verifying that all points are below 2.8e-15 of
+all facets.  Will make 13000 distance computations.
+
+Convex hull of 50 points in 4-d:
+
+  Number of vertices: 50
+  Number of facets: 260
+
+Statistics for: rbox D4 | qconvex Tv
+
+  Number of points processed: 50
+  Number of hyperplanes created: 712
+  Number of distance tests for qhull: 1433
+  CPU seconds to compute hull (after input):  0
+
+
+============================================
+== To enable user_eg and user_eg2
+==
+== Windows -- make SO=dll
+==     cp -p lib/libqhull*.dll bin
+==
+== Unix/Macintosh -- make
+==     export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH
+============================================
+
+============================================
+== To smoketest qhull programs
+==     make test
+============================================
+
+============================================
+== To run qhull tests for manual review with eg/q_test-ok.txt
+==     make testall >q_test.txt 2>&1
+============================================
+
+============================================
+== For all make targets
+==     make help
+============================================
+

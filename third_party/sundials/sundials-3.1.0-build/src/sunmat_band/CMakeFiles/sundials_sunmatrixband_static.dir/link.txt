@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-3/root/usr/bin/ar qc libsundials_sunmatrixband.a  CMakeFiles/sundials_sunmatrixband_static.dir/sunmatrix_band.c.o CMakeFiles/sundials_sunmatrixband_static.dir/__/sundials/sundials_nvector.c.o CMakeFiles/sundials_sunmatrixband_static.dir/__/sundials/sundials_matrix.c.o CMakeFiles/sundials_sunmatrixband_static.dir/__/sundials/sundials_math.c.o
+/opt/rh/devtoolset-3/root/usr/bin/ranlib libsundials_sunmatrixband.a

@@ -1,0 +1,637 @@
+[  1%] Built target sundials_nvecserial_static
+[  1%] Built target sundials_nvecserial_shared
+[  2%] Built target sundials_sunmatrixdense_static
+[  3%] Built target sundials_sunmatrixdense_shared
+[  3%] Built target sundials_sunmatrixband_static
+[  4%] Built target sundials_sunmatrixband_shared
+[  5%] Built target sundials_sunmatrixsparse_shared
+[  6%] Built target sundials_sunmatrixsparse_static
+[  7%] Built target sundials_sunlinsolband_static
+[  7%] Built target sundials_sunlinsolband_shared
+[  7%] Built target sundials_sunlinsoldense_static
+[  8%] Built target sundials_sunlinsoldense_shared
+[  9%] Built target sundials_sunlinsolspgmr_static
+[ 10%] Built target sundials_sunlinsolspgmr_shared
+[ 11%] Built target sundials_sunlinsolspfgmr_static
+[ 12%] Built target sundials_sunlinsolspfgmr_shared
+[ 13%] Built target sundials_sunlinsolspbcgs_static
+[ 14%] Built target sundials_sunlinsolspbcgs_shared
+[ 15%] Built target sundials_sunlinsolsptfqmr_static
+[ 16%] Built target sundials_sunlinsolsptfqmr_shared
+[ 17%] Built target sundials_sunlinsolpcg_static
+[ 18%] Built target sundials_sunlinsolpcg_shared
+[ 22%] Built target sundials_arkode_static
+[ 26%] Built target sundials_arkode_shared
+[ 30%] Built target sundials_cvode_static
+[ 35%] Built target sundials_cvode_shared
+[ 40%] Built target sundials_cvodes_static
+[ 45%] Built target sundials_cvodes_shared
+[ 50%] Built target sundials_ida_static
+[ 54%] Built target sundials_ida_shared
+[ 59%] Built target sundials_idas_static
+[ 64%] Built target sundials_idas_shared
+[ 68%] Built target sundials_kinsol_shared
+[ 72%] Built target sundials_kinsol_static
+[ 72%] Built target ark_brusselator_fp
+[ 73%] Built target ark_brusselator
+[ 73%] Built target ark_analytic
+[ 73%] Built target ark_analytic_nonlin
+[ 73%] Built target ark_brusselator1D
+[ 74%] Built target ark_heat1D
+[ 74%] Built target ark_heat1D_adapt
+[ 74%] Built target ark_robertson
+[ 74%] Built target ark_KrylovDemo_prec
+[ 75%] Built target ark_robertson_root
+[ 76%] Built target cvKrylovDemo_prec
+[ 76%] Built target cvDiurnal_kry_bp
+[ 76%] Built target cvKrylovDemo_ls
+[ 76%] Built target cvRoberts_dns
+[ 77%] Built target cvDiurnal_kry
+[ 77%] Built target cvAdvDiff_bnd
+[ 77%] Built target cvRoberts_dns_uw
+[ 77%] Built target cvDirectDemo_ls
+[ 77%] Built target cvsHessian_ASA_FSA
+[ 77%] Built target cvsFoodWeb_ASAi_kry
+[ 78%] Built target cvsKrylovDemo_prec
+[ 78%] Built target cvsRoberts_dns
+[ 78%] Built target cvsDiurnal_kry_bp
+[ 78%] Built target cvsDiurnal_FSA_kry
+[ 79%] Built target cvsDiurnal_kry
+[ 79%] Built target cvsDirectDemo_ls
+[ 79%] Built target cvsAdvDiff_ASAi_bnd
+[ 79%] Built target cvsRoberts_ASAi_dns
+[ 80%] Built target cvsRoberts_dns_uw
+[ 81%] Built target cvsAdvDiff_bnd
+[ 82%] Built target cvsFoodWeb_ASAp_kry
+[ 82%] Built target cvsAdvDiff_FSA_non
+[ 82%] Built target cvsRoberts_FSA_dns
+[ 82%] Built target cvsKrylovDemo_ls
+[ 82%] Built target idaFoodWeb_kry
+[ 82%] Built target idaHeat2D_kry
+[ 83%] Built target idaHeat2D_bnd
+[ 83%] Built target idaFoodWeb_bnd
+[ 83%] Built target idaKrylovDemo_ls
+[ 84%] Built target idaRoberts_dns
+[ 84%] Built target idaSlCrank_dns
+[ 85%] Built target idasSlCrank_FSA_dns
+[ 85%] Built target idasSlCrank_dns
+[ 85%] Built target idasHeat2D_bnd
+[ 86%] Built target idasAkzoNob_dns
+[ 86%] Built target idasFoodWeb_bnd
+[ 86%] Built target idasHessian_ASA_FSA
+[ 87%] Built target idasHeat2D_kry
+[ 87%] Built target idasKrylovDemo_ls
+[ 87%] Built target idasAkzoNob_ASAi_dns
+[ 88%] Built target idasRoberts_ASAi_dns
+[ 88%] Built target idasRoberts_dns
+[ 88%] Built target idasRoberts_FSA_dns
+[ 88%] Built target kinLaplace_bnd
+[ 88%] Built target kinKrylovDemo_ls
+[ 88%] Built target kinRoberts_fp
+[ 89%] Built target kinFoodWeb_kry
+[ 90%] Built target kinLaplace_picard_bnd
+[ 90%] Built target kinFerTron_dns
+[ 90%] Built target kinRoboKin_dns
+[ 90%] Built target test_nvector_serial
+[ 91%] Built target test_sunmatrix_dense
+[ 92%] Built target test_sunmatrix_band
+[ 93%] Built target test_sunmatrix_sparse
+[ 94%] Built target test_sunlinsol_band
+[ 95%] Built target test_sunlinsol_dense
+[ 95%] Built target test_sunlinsol_spgmr_serial
+[ 96%] Built target test_sunlinsol_spfgmr_serial
+[ 97%] Built target test_sunlinsol_spbcgs_serial
+[ 98%] Built target test_sunlinsol_sptfqmr_serial
+[100%] Built target test_sunlinsol_pcg_serial
+Install the project...
+-- Install configuration: ""
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_config.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_fconfig.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/./LICENSE
+
+Install shared components
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_band.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_dense.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_fnvector.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_iterative.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_linearsolver.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_math.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_matrix.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_nvector.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_pcg.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_sparse.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_spbcgs.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_spfgmr.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_spgmr.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_sptfqmr.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_types.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sundials/sundials_version.h
+
+Install NVECTOR_SERIAL
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_nvecserial.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_nvecserial.so.3.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_nvecserial.so.3
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_nvecserial.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/nvector/nvector_serial.h
+
+Install SUNMATRIX_DENSE
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixdense.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixdense.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixdense.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixdense.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunmatrix/sunmatrix_dense.h
+
+Install SUNMATRIX_BAND
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixband.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixband.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixband.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixband.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunmatrix/sunmatrix_band.h
+
+Install SUNMATRIX_SPARSE
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixsparse.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixsparse.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixsparse.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunmatrixsparse.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunmatrix/sunmatrix_sparse.h
+
+Install SUNLINSOL_BAND
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolband.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolband.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolband.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolband.so
+-- Set runtime path of "/users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolband.so.1.1.0" to ""
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_band.h
+
+Install SUNLINSOL_DENSE
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsoldense.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsoldense.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsoldense.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsoldense.so
+-- Set runtime path of "/users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsoldense.so.1.1.0" to ""
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_dense.h
+
+Install SUNLINSOL_SPGMR
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspgmr.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspgmr.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspgmr.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspgmr.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_spgmr.h
+
+Install SUNLINSOL_SPFGMR
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspfgmr.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspfgmr.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspfgmr.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspfgmr.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_spfgmr.h
+
+Install SUNLINSOL_SPBCGS
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspbcgs.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspbcgs.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspbcgs.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolspbcgs.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_spbcgs.h
+
+Install SUNLINSOL_SPTFQMR
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolsptfqmr.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolsptfqmr.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolsptfqmr.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolsptfqmr.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_sptfqmr.h
+
+Install SUNLINSOL_PCG
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolpcg.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolpcg.so.1.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolpcg.so.1
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_sunlinsolpcg.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/sunlinsol/sunlinsol_pcg.h
+
+Install ARKODE
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_arkode.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_arkode.so.2.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_arkode.so.2
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_arkode.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/arkode/arkode.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/arkode/arkode_bandpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/arkode/arkode_bbdpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/arkode/arkode_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/arkode/arkode_spils.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/arkode/arkode_impl.h
+
+Install CVODE
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvode.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvode.so.3.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvode.so.3
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvode.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode_bandpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode_bbdpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode_diag.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode_spils.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvode/cvode_impl.h
+
+Install CVODES
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvodes.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvodes.so.3.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvodes.so.3
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_cvodes.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes_bandpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes_bbdpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes_diag.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes_spils.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/cvodes/cvodes_impl.h
+
+Install IDA
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_ida.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_ida.so.3.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_ida.so.3
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_ida.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/ida/ida.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/ida/ida_bbdpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/ida/ida_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/ida/ida_spils.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/ida/ida_impl.h
+
+Install IDAS
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_idas.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_idas.so.2.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_idas.so.2
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_idas.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/idas/idas.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/idas/idas_bbdpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/idas/idas_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/idas/idas_spils.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/idas/idas_impl.h
+
+Install KINSOL
+
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_kinsol.a
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_kinsol.so.3.1.0
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_kinsol.so.3
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/lib/libsundials_kinsol.so
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/kinsol/kinsol_bbdpre.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/kinsol/kinsol_direct.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/kinsol/kinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/kinsol/kinsol_spils.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/include/kinsol/kinsol_impl.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_analytic.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_analytic.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_analytic_nonlin.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_analytic_nonlin.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_brusselator.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_brusselator.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_brusselator_fp.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_brusselator_fp.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_brusselator1D.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_brusselator1D.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_heat1D.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_heat1D.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_heat1D_adapt.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_heat1D_adapt.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_KrylovDemo_prec.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_KrylovDemo_prec.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_robertson.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_robertson.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_robertson_root.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/ark_robertson_root.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/README
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/plot_brusselator1D.py
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/plot_brusselator1D_FEM.py
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/plot_heat1D.py
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/plot_heat1D_adapt.py
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/plot_sol.py
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/plot_sol_log.py
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/arkode/C_serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvAdvDiff_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvAdvDiff_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvDirectDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvDirectDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvDiurnal_kry_bp.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvDiurnal_kry_bp.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvDiurnal_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvDiurnal_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvKrylovDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvKrylovDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvKrylovDemo_prec.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvKrylovDemo_prec.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvRoberts_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvRoberts_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvRoberts_dns_uw.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/cvRoberts_dns_uw.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/README
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvode/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsAdvDiff_ASAi_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsAdvDiff_ASAi_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsAdvDiff_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsAdvDiff_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsAdvDiff_FSA_non.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsAdvDiff_FSA_non.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDirectDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDirectDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDiurnal_FSA_kry.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDiurnal_FSA_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDiurnal_kry_bp.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDiurnal_kry_bp.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDiurnal_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsDiurnal_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsFoodWeb_ASAi_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsFoodWeb_ASAi_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsFoodWeb_ASAp_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsFoodWeb_ASAp_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsHessian_ASA_FSA.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsHessian_ASA_FSA.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsKrylovDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsKrylovDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsKrylovDemo_prec.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsKrylovDemo_prec.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_ASAi_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_ASAi_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_dns_uw.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_dns_uw.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/cvsRoberts_FSA_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/README
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/cvodes/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaFoodWeb_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaFoodWeb_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaHeat2D_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaHeat2D_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaHeat2D_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaHeat2D_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaFoodWeb_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaFoodWeb_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaKrylovDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaKrylovDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaRoberts_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaRoberts_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaSlCrank_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/idaSlCrank_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/README
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/ida/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasAkzoNob_ASAi_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasAkzoNob_ASAi_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasAkzoNob_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasAkzoNob_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasFoodWeb_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasFoodWeb_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasHeat2D_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasHeat2D_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasHeat2D_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasHeat2D_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasHessian_ASA_FSA.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasHessian_ASA_FSA.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasKrylovDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasKrylovDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasRoberts_ASAi_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasRoberts_ASAi_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasRoberts_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasRoberts_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasRoberts_FSA_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasSlCrank_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasSlCrank_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasSlCrank_FSA_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/idasSlCrank_FSA_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/README
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/idas/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinFerTron_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinFerTron_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinFoodWeb_kry.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinFoodWeb_kry.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinKrylovDemo_ls.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinKrylovDemo_ls.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinLaplace_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinLaplace_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinLaplace_picard_bnd.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinLaplace_picard_bnd.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinRoberts_fp.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinRoberts_fp.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinRoboKin_dns.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/kinRoboKin_dns.out
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/README
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/kinsol/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/test_nvector_serial.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/test_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/test_nvector.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/test_nvector_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/test_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/test_nvector.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/nvector/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix_dense.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/sundials_matrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix_dense.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix_dense.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/dense/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix_band.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_matrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix_band.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix_band.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix_band.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/band/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix_sparse.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_matrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix_sparse.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix_sparse.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix_sparse.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix_sparse.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix_sparse.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/test_sunmatrix.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunmatrix/sparse/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol_band.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_matrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol_band.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol_band.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol_band.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/band/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol_dense.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_matrix.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol_dense.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol_dense.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol_dense.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_matrix.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/dense/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol_spgmr_serial.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol_spgmr_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol_spgmr_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol_spgmr_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spgmr/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/test_sunlinsol_spfgmr_serial.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/test_sunlinsol_spfgmr_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spfgmr/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/test_sunlinsol_spbcgs_serial.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/test_sunlinsol_spbcgs_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/spbcgs/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/test_sunlinsol_sptfqmr_serial.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/sundials_nvector.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/test_sunlinsol_sptfqmr_serial.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/test_sunlinsol.h
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/test_sunlinsol.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/sundials_linearsolver.c
+-- Up-to-date: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/sptfqmr/serial/Makefile
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/test_sunlinsol_pcg_serial.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/test_sunlinsol.h
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/test_sunlinsol.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/sundials_linearsolver.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/sundials_nvector.c
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/CMakeLists.txt
+-- Installing: /users/banspach/oss/third_party_os66/sundials/sundials-3.1.0-install/examples/sunlinsol/pcg/serial/Makefile

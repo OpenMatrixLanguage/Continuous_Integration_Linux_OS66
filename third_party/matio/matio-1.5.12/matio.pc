@@ -1,0 +1,10 @@
+prefix=/usr/local
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: MATIO
+Description: MATIO Library
+Version: 1.5.12
+Libs: -L${libdir} -lmatio -L/users/banspach/oss/third_party_os66/hdf5/hdf5-1.10.1/hdf5/lib -lhdf5 -L/users/banspach/oss/third_party_os66/zlib/zlib-1.2.11/lib -lz
+Cflags: -I${includedir} -I/users/banspach/oss/third_party_os66/hdf5/hdf5-1.10.1/hdf5/include -I/users/banspach/oss/third_party_os66/zlib/zlib-1.2.11/include

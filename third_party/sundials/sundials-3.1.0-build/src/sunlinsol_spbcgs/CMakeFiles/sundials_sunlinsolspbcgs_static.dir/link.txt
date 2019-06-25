@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-3/root/usr/bin/ar qc libsundials_sunlinsolspbcgs.a  CMakeFiles/sundials_sunlinsolspbcgs_static.dir/sunlinsol_spbcgs.c.o CMakeFiles/sundials_sunlinsolspbcgs_static.dir/__/sundials/sundials_math.c.o CMakeFiles/sundials_sunlinsolspbcgs_static.dir/__/sundials/sundials_nvector.c.o CMakeFiles/sundials_sunlinsolspbcgs_static.dir/__/sundials/sundials_linearsolver.c.o CMakeFiles/sundials_sunlinsolspbcgs_static.dir/__/sundials/sundials_iterative.c.o
+/opt/rh/devtoolset-3/root/usr/bin/ranlib libsundials_sunlinsolspbcgs.a

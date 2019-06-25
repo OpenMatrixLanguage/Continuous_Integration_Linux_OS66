@@ -1,0 +1,2 @@
+/opt/rh/devtoolset-3/root/usr/bin/ar qc libsundials_nvecserial.a  CMakeFiles/sundials_nvecserial_static.dir/nvector_serial.c.o CMakeFiles/sundials_nvecserial_static.dir/__/sundials/sundials_math.c.o
+/opt/rh/devtoolset-3/root/usr/bin/ranlib libsundials_nvecserial.a

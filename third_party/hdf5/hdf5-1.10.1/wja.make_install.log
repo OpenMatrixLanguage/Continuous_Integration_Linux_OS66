@@ -1,0 +1,660 @@
+Making install in src
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/src'
+make[1]: Warning: File `.deps/H5lib_settings.Plo' has modification time 0.036 s in the future
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/src'
+make[2]: Warning: File `.deps/H5detect.Po' has modification time 64 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../libtool   --mode=install /bin/install -c   libhdf5.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: install: /bin/install -c .libs/libhdf5.so.101.0.0 /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5.so.101.0.0
+libtool: install: (cd /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib && { ln -s -f libhdf5.so.101.0.0 libhdf5.so.101 || { rm -f libhdf5.so.101 && ln -s libhdf5.so.101.0.0 libhdf5.so.101; }; })
+libtool: install: (cd /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib && { ln -s -f libhdf5.so.101.0.0 libhdf5.so || { rm -f libhdf5.so && ln -s libhdf5.so.101.0.0 libhdf5.so; }; })
+libtool: install: /bin/install -c .libs/libhdf5.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5.la
+libtool: install: /bin/install -c .libs/libhdf5.a /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5.a
+libtool: install: chmod 644 /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5.a
+libtool: install: ranlib /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5.a
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/include'
+ /bin/install -c -m 644 hdf5.h H5api_adpt.h H5overflow.h H5pubconf.h H5public.h H5version.h H5Apublic.h H5ACpublic.h H5Cpublic.h H5Dpublic.h H5Epubgen.h H5Epublic.h H5Fpublic.h H5FDpublic.h H5FDcore.h H5FDdirect.h H5FDfamily.h H5FDlog.h H5FDmpi.h H5FDmpio.h H5FDmulti.h H5FDsec2.h H5FDstdio.h H5Gpublic.h H5Ipublic.h H5Lpublic.h H5MMpublic.h H5Opublic.h H5Ppublic.h H5PLextern.h H5PLpublic.h H5Rpublic.h H5Spublic.h H5Tpublic.h H5Zpublic.h '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/include'
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/install -c -m 644 libhdf5.settings '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/src'
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/src'
+Making install in test
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/test'
+make[1]: Warning: File `.deps/vfd.Po' has modification time 135 s in the future
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/test'
+make[2]: Warning: File `.deps/vfd.Po' has modification time 134 s in the future
+make[2]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../libtool   --mode=install /bin/install -c   libdynlib1.la libdynlib2.la libdynlib3.la libdynlib4.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: install: /bin/install -c .libs/libdynlib1.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib1.so
+libtool: install: /bin/install -c .libs/libdynlib1.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib1.la
+libtool: install: /bin/install -c .libs/libdynlib2.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib2.so
+libtool: install: /bin/install -c .libs/libdynlib2.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib2.la
+libtool: install: /bin/install -c .libs/libdynlib3.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib3.so
+libtool: install: /bin/install -c .libs/libdynlib3.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib3.la
+libtool: install: /bin/install -c .libs/libdynlib4.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib4.so
+libtool: install: /bin/install -c .libs/libdynlib4.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlib4.la
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/test'
+make[1]: warning:  Clock skew detected.  Your build may be incomplete.
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/test'
+Making install in tools
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools'
+Making install in lib
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/lib'
+make[2]: Warning: File `.deps/io_timer.Plo' has modification time 162 s in the future
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/lib'
+make[3]: Warning: File `.deps/io_timer.Plo' has modification time 162 s in the future
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/lib'
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/lib'
+Making install in src
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src'
+Making install in h5diff
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5diff'
+make[3]: Warning: File `.deps/h5diff_main.Po' has modification time 163 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5diff'
+make[4]: Warning: File `.deps/h5diff_main.Po' has modification time 163 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5diff '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5diff /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5diff
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5diff'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5diff'
+Making install in h5ls
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5ls'
+make[3]: Warning: File `.deps/h5ls.Po' has modification time 163 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5ls'
+make[4]: Warning: File `.deps/h5ls.Po' has modification time 163 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5ls '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5ls /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5ls
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5ls'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5ls'
+Making install in h5dump
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5dump'
+make[3]: Warning: File `.deps/h5dump_xml.Po' has modification time 165 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5dump'
+make[4]: Warning: File `.deps/h5dump_xml.Po' has modification time 165 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5dump '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5dump /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5dump
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5dump'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5dump'
+Making install in misc
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/misc'
+make[3]: Warning: File `.deps/h5repart.Po' has modification time 165 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/misc'
+make[4]: Warning: File `.deps/h5repart.Po' has modification time 165 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5debug h5repart h5mkgrp h5clear '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5debug /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5debug
+libtool: install: /bin/install -c .libs/h5repart /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5repart
+libtool: install: /bin/install -c .libs/h5mkgrp /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5mkgrp
+libtool: install: /bin/install -c .libs/h5clear /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5clear
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+ /bin/install -c h5redeploy '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/misc'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/misc'
+Making install in h5import
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5import'
+make[3]: Warning: File `.deps/h5import.Po' has modification time 166 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5import'
+make[4]: Warning: File `.deps/h5import.Po' has modification time 166 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5import '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5import /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5import
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5import'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5import'
+Making install in h5repack
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5repack'
+make[3]: Warning: File `.deps/h5repack_verify.Plo' has modification time 170 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5repack'
+make[4]: Warning: File `.deps/h5repack_verify.Plo' has modification time 170 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5repack '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5repack /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5repack
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5repack'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5repack'
+Making install in h5jam
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5jam'
+make[3]: Warning: File `.deps/h5unjam.Po' has modification time 172 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5jam'
+make[4]: Warning: File `.deps/h5unjam.Po' has modification time 172 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5jam h5unjam '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5jam /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5jam
+libtool: install: /bin/install -c .libs/h5unjam /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5unjam
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5jam'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5jam'
+Making install in h5copy
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5copy'
+make[3]: Warning: File `.deps/h5copy.Po' has modification time 172 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5copy'
+make[4]: Warning: File `.deps/h5copy.Po' has modification time 172 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5copy '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5copy /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5copy
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5copy'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5copy'
+Making install in h5format_convert
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5format_convert'
+make[3]: Warning: File `.deps/h5format_convert.Po' has modification time 172 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5format_convert'
+make[4]: Warning: File `.deps/h5format_convert.Po' has modification time 172 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5format_convert '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5format_convert /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5format_convert
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5format_convert'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5format_convert'
+Making install in h5stat
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5stat'
+make[3]: Warning: File `.deps/h5stat.Po' has modification time 172 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5stat'
+make[4]: Warning: File `.deps/h5stat.Po' has modification time 172 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5stat '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5stat /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5stat
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5stat'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src/h5stat'
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src'
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src'
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src'
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/src'
+Making install in test
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test'
+Making install in h5diff
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5diff'
+make[3]: Warning: File `.deps/h5diffgentest.Po' has modification time 174 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5diff'
+make[4]: Warning: File `.deps/h5diffgentest.Po' has modification time 174 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../../../libtool   --mode=install /bin/install -c   libdynlibdiff.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: install: /bin/install -c .libs/libdynlibdiff.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibdiff.so
+libtool: install: /bin/install -c .libs/libdynlibdiff.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibdiff.la
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5diff'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5diff'
+Making install in h5ls
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5ls'
+make[3]: Warning: File `.deps/dynlib_ls.Plo' has modification time 174 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5ls'
+make[4]: Warning: File `.deps/dynlib_ls.Plo' has modification time 174 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../../../libtool   --mode=install /bin/install -c   libdynlibls.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: install: /bin/install -c .libs/libdynlibls.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibls.so
+libtool: install: /bin/install -c .libs/libdynlibls.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibls.la
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5ls'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5ls'
+Making install in h5dump
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5dump'
+make[3]: Warning: File `.deps/h5dumpgentest.Po' has modification time 176 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5dump'
+make[4]: Warning: File `.deps/h5dumpgentest.Po' has modification time 176 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../../../libtool   --mode=install /bin/install -c   libdynlibdump.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: install: /bin/install -c .libs/libdynlibdump.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibdump.so
+libtool: install: /bin/install -c .libs/libdynlibdump.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibdump.la
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5dump'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5dump'
+Making install in misc
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc'
+make[3]: Warning: File `.deps/talign.Po' has modification time 179 s in the future
+Making install in vds
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc/vds'
+make[4]: Warning: File `.deps/UC_5_stride_gen.Po' has modification time 178 s in the future
+make[5]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc/vds'
+make[5]: Warning: File `.deps/UC_5_stride_gen.Po' has modification time 178 s in the future
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: warning:  Clock skew detected.  Your build may be incomplete.
+make[5]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc/vds'
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc/vds'
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc'
+make[4]: Warning: File `.deps/talign.Po' has modification time 179 s in the future
+make[5]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc'
+make[5]: Warning: File `.deps/talign.Po' has modification time 179 s in the future
+make[5]: Nothing to be done for `install-exec-am'.
+make[5]: Nothing to be done for `install-data-am'.
+make[5]: warning:  Clock skew detected.  Your build may be incomplete.
+make[5]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc'
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/misc'
+Making install in h5import
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5import'
+make[3]: Warning: File `.deps/h5importtest.Po' has modification time 180 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5import'
+make[4]: Warning: File `.deps/h5importtest.Po' has modification time 180 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5import'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5import'
+Making install in h5repack
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5repack'
+make[3]: Warning: File `.deps/testh5repack_detect_szip.Po' has modification time 182 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5repack'
+make[4]: Warning: File `.deps/testh5repack_detect_szip.Po' has modification time 182 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../../../libtool   --mode=install /bin/install -c   libdynlibadd.la libdynlibvers.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: install: /bin/install -c .libs/libdynlibadd.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibadd.so
+libtool: install: /bin/install -c .libs/libdynlibadd.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibadd.la
+libtool: install: /bin/install -c .libs/libdynlibvers.so /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibvers.so
+libtool: install: /bin/install -c .libs/libdynlibvers.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libdynlibvers.la
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5repack'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5repack'
+Making install in h5jam
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5jam'
+make[3]: Warning: File `.deps/tellub.Po' has modification time 182 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5jam'
+make[4]: Warning: File `.deps/tellub.Po' has modification time 182 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5jam'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5jam'
+Making install in h5copy
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5copy'
+make[3]: Warning: File `.deps/h5copygentest.Po' has modification time 183 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5copy'
+make[4]: Warning: File `.deps/h5copygentest.Po' has modification time 183 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5copy'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5copy'
+Making install in h5format_convert
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5format_convert'
+make[3]: Warning: File `.deps/h5fc_gentest.Po' has modification time 183 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5format_convert'
+make[4]: Warning: File `.deps/h5fc_gentest.Po' has modification time 183 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5format_convert'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5format_convert'
+Making install in h5stat
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5stat'
+make[3]: Warning: File `.deps/h5stat_gentest.Po' has modification time 184 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5stat'
+make[4]: Warning: File `.deps/h5stat_gentest.Po' has modification time 184 s in the future
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5stat'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/h5stat'
+Making install in perform
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/perform'
+make[3]: Warning: File `.deps/zip_perf.Po' has modification time 186 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/perform'
+make[4]: Warning: File `.deps/zip_perf.Po' has modification time 186 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5perf_serial '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5perf_serial /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5perf_serial
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/perform'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test/perform'
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test'
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test'
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test'
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools/test'
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools'
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools'
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools'
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/tools'
+Making install in .
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1'
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1'
+make[2]: Nothing to be done for `install-exec-am'.
+make[2]: Nothing to be done for `install-data-am'.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1'
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1'
+Making install in hl
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+Making install in src
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/src'
+make[2]: Warning: File `.deps/H5TB.Plo' has modification time 191 s in the future
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/src'
+make[3]: Warning: File `.deps/H5TB.Plo' has modification time 191 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+ /bin/sh ../../libtool   --mode=install /bin/install -c   libhdf5_hl.la '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib'
+libtool: warning: relinking 'libhdf5_hl.la'
+libtool: install: (cd /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/src; /bin/sh "/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/libtool"  --silent --tag CC --mode=relink gcc -std=c99 -pedantic -Wall -Wextra -Wundef -Wshadow -Wpointer-arith -Wbad-function-cast -Wcast-qual -Wcast-align -Wwrite-strings -Wconversion -Wstrict-prototypes -Wmissing-prototypes -Wmissing-declarations -Wredundant-decls -Wnested-externs -Wfloat-equal -Wmissing-format-attribute -Wpacked -Wdisabled-optimization -Wformat=2 -Wunreachable-code -Wendif-labels -Wdeclaration-after-statement -Wold-style-definition -Winvalid-pch -Wvariadic-macros -Winit-self -Wmissing-include-dirs -Wswitch-default -Wswitch-enum -Wunused-macros -Wunsafe-loop-optimizations -Wc++-compat -Wlogical-op -Wlarger-than=2048 -Wvla -Wsync-nand -Wframe-larger-than=16384 -Wpacked-bitfield-compat -Wstrict-overflow=5 -Wjump-misses-init -Wdouble-promotion -Wtrampolines -Wstack-usage=8192 -Wvector-operation-performance -s -Wno-inline -Wno-aggregate-return -Wno-missing-noreturn -Wno-suggest-attribute=const -Wno-suggest-attribute=pure -Wno-suggest-attribute=noreturn -Wno-suggest-attribute=format -O3 -version-info 100:1:0 -o libhdf5_hl.la -rpath /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib H5DO.lo H5DS.lo H5IM.lo H5LT.lo H5LTanalyze.lo H5LTparse.lo H5PT.lo H5TB.lo H5LD.lo ../../src/libhdf5.la -lz -ldl -lm )
+libtool: install: /bin/install -c .libs/libhdf5_hl.so.100.0.1T /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5_hl.so.100.0.1
+libtool: install: (cd /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib && { ln -s -f libhdf5_hl.so.100.0.1 libhdf5_hl.so.100 || { rm -f libhdf5_hl.so.100 && ln -s libhdf5_hl.so.100.0.1 libhdf5_hl.so.100; }; })
+libtool: install: (cd /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib && { ln -s -f libhdf5_hl.so.100.0.1 libhdf5_hl.so || { rm -f libhdf5_hl.so && ln -s libhdf5_hl.so.100.0.1 libhdf5_hl.so; }; })
+libtool: install: /bin/install -c .libs/libhdf5_hl.lai /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5_hl.la
+libtool: install: /bin/install -c .libs/libhdf5_hl.a /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5_hl.a
+libtool: install: chmod 644 /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5_hl.a
+libtool: install: ranlib /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib/libhdf5_hl.a
+libtool: finish: PATH="/users/banspach/oss/openmatrix/omloss/src/bin/linux64:/soft/net:/bin:/usr/bin:/sbin:/usr/sbin:/usr/bin/X11:/usr/etc:/usr/local/bin:/soft/gnu/bin:/usr/pbs/bin:.:/users/banspach/p4/p4v-2015.2.1458499/bin:/users/banspach/ActiveTcl-8.6/bin:/users/banspach/cmake/cmake-3.10.0-Linux-x86_64/bin:/sbin" ldconfig -n /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the '-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the 'LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the 'LD_RUN_PATH' environment variable
+     during linking
+   - use the '-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to '/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/include'
+ /bin/install -c -m 644 hdf5_hl.h H5DOpublic.h H5IMpublic.h H5LTpublic.h H5TBpublic.h H5DSpublic.h H5PTpublic.h H5LDpublic.h '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/include'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/src'
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/src'
+Making install in test
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/test'
+make[2]: Warning: File `.deps/test_table.Po' has modification time 192 s in the future
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/test'
+make[3]: Warning: File `.deps/test_table.Po' has modification time 192 s in the future
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/test'
+make[2]: warning:  Clock skew detected.  Your build may be incomplete.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/test'
+Making install in tools
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools'
+Making install in gif2h5
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/gif2h5'
+make[3]: Warning: File `.deps/writehdf.Po' has modification time 196 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/gif2h5'
+make[4]: Warning: File `.deps/writehdf.Po' has modification time 196 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c gif2h5 h52gif '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/gif2h5 /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/gif2h5
+libtool: install: /bin/install -c .libs/h52gif /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h52gif
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/gif2h5'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/gif2h5'
+Making install in h5watch
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/h5watch'
+make[3]: Warning: File `.deps/swmr_check_compat_vfd.Po' has modification time 197 s in the future
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/h5watch'
+make[4]: Warning: File `.deps/swmr_check_compat_vfd.Po' has modification time 197 s in the future
+ /bin/mkdir -p '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+  /bin/sh ../../../libtool   --mode=install /bin/install -c h5watch '/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin'
+libtool: install: /bin/install -c .libs/h5watch /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/bin/h5watch
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: warning:  Clock skew detected.  Your build may be incomplete.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/h5watch'
+make[3]: warning:  Clock skew detected.  Your build may be incomplete.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools/h5watch'
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools'
+make[4]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools'
+make[4]: Nothing to be done for `install-exec-am'.
+make[4]: Nothing to be done for `install-data-am'.
+make[4]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools'
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools'
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/tools'
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+make[3]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+make[3]: Nothing to be done for `install-exec-am'.
+make[3]: Nothing to be done for `install-data-am'.
+make[3]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+for d in examples  hl; do               \
+    (cd $d && make  install-examples) || exit 1;           \
+done
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/examples'
+../bin/mkdirs /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c
++ /bin/install -c ./h5_write.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_read.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_extend_write.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_chunk_read.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_crtgrpd.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_subset.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_cmprss.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_rdwt.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_crtgrpar.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_extend.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_crtatt.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_crtgrp.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_crtdat.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_compound.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_group.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_select.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_attribute.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_mount.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_reference.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_drivers.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_extlink.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_elink_unix2win.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_ref2reg.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_shared_mesg.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./ph5example.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-exc.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-exclim.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-eiger.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-simpleIO.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-percival.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-percival-unlim.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./h5_vds-percival-unlim-maxmin.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c run-c-ex.sh /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/c/.
++ /bin/install -c ./README /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/.
++ /bin/install -c ./run-all-ex.sh /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/.
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/examples'
+make[1]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
+for d in examples ; do               \
+    (cd $d && make  install-examples) || exit 1;           \
+done
+make[2]: Entering directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/examples'
+../../bin/mkdirs /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c
++ /bin/install -c ./ex_lite1.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_lite2.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_lite3.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ptExampleFL.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_image1.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_image2.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_01.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_02.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_03.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_04.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_05.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_06.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_07.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_08.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_09.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_10.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_11.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_table_12.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./ex_ds1.c /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./image24pixel.txt /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./image8.txt /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./pal_rgb.h /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c run-hlc-ex.sh /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/c/.
++ /bin/install -c ./run-hl-ex.sh /users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hdf5/share/hdf5_examples/hl/.
+make[2]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl/examples'
+make[1]: Leaving directory `/users/banspach/oss/third_party/hdf5/hdf5-1.10.1/hl'
