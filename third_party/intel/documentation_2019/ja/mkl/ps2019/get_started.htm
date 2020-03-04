@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja-jp" lang="ja-jp">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="DC.Type" content="topic"/>
+<meta name="DC.Title" content="インテル® MKL 2019 for Linux* 入門"/>
+<meta name="prodname" content="インテル® MKL デベロッパー・リファレンス"/>
+<meta name="version" content="-000"/>
+<meta name="release" content="2018"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="get_started_lnx"/>
+<meta name="DC.Language" content="ja-JP"/>
+<link rel="stylesheet" type="text/css" href="resources/intel_gsp_styles.css"/>
+<title>インテル® MKL 2019 for Linux* 入門</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1"/>
+<!-- BEGIN SCRIPTS FOR EXPAND/COLLAPSE FUNCTIONALITY -->
+<script src="resources/jquery-1.11.1.min.js"><!----></script>
+<script src="resources/hide-show.js"><!----></script>
+<!-- END SCRIPTS FOR EXPAND/COLLAPSE FUNCTIONALITY -->
+<!-- Prism script to support syntax highlighting-->
+<script src="resources/prism/prism.js"><!----></script>
+
+<!-- prism.css stylesheet to support syntax highlighting-->
+<link href="resources/prism/prism.css" rel="stylesheet"/>
+</head>
+<body class="titlepage" id="get_started_lnx"><a name="get_started_lnx"><!-- --></a>
+
+
+<div id="banner">
+<div id="bannerblock">
+<img src="resources/intel_logo.png" class="intellogo" alt="Intel logo"/>
+<!--No product image to be included-->
+<h1 class="title">インテル® MKL 2019 for Linux* 入門</h1>
+</div>
+</div>
+<div id="contentblock">
+<div id="mainmenu"><h3>目次</h3><p><a class="mainmenulinks" href="#GUID-59727C1B-D89C-49C6-BF2A-284A6DD288DC"/></p>
+<p><a class="mainmenulinks" href="#GUID-08C9227A-D52E-4BBA-B0DF-FC862855B38F">必要条件</a></p>
+<p><a class="mainmenulinks" href="#GUID-4DEF1304-2A51-4207-BD9C-2AD38E1C9545">ステップ 1: インテル® MKL のインストール</a></p>
+<p><a class="mainmenulinks" href="#GUID-34BF52E5-62E2-4E76-8327-275B2DDD001B">ステップ 2: 関数/ルーチンの選択</a></p>
+<p><a class="mainmenulinks" href="#GUID-7616D4C4-9746-4A88-A6D4-28E2BC766E03">ステップ 3: コードのリンク</a></p>
+<p><a class="mainmenulinks" href="#GUID-A4897653-62A8-40E7-A5BA-D5D7C5B02BB1">トレーニングとその他のドキュメント</a></p>
+<p><a class="mainmenulinks" href="#GUID-962A4793-352D-4ECD-BA69-47C411D27DB3">著作権と商標について</a></p>
+</div>
+<div id="GUID-59727C1B-D89C-49C6-BF2A-284A6DD288DC"><p>インテル® マス・カーネル・ライブラリー (インテル® MKL) は、高度に最適化され、広範囲にスレッド化されたルーチンを含む数学計算ライブラリーにより、パフォーマンスを最大限に引き出します。ほとんどのルーチンで C と Fortran の両方のインターフェイスを提供しています。また、次のような数学演算を包括的にサポートしています。<a name="GUID-E35A95DC-249C-4EF7-A446-2A60846B8B57"><!-- --></a>
+<ul id="GUID-E35A95DC-249C-4EF7-A446-2A60846B8B57"><li>線形代数</li>
+<li>高速フーリエ変換 (FFT)</li>
+<li>ベクトル演算</li>
+<li>直接法および反復法スパースソルバー</li>
+<li>乱数ジェネレーター</li>
+</ul>
+</p>
+</div>
+<div id="GUID-08C9227A-D52E-4BBA-B0DF-FC862855B38F">
+<h2><a name="GUID-08C9227A-D52E-4BBA-B0DF-FC862855B38F"><!-- --></a>必要条件</h2>
+<p><a href="https://software.intel.com/en-us/articles/intel-math-kernel-library-intel-mkl-2019-system-requirements" target="_blank">動作環境</a> (英語)</p>
+</div>
+<div id="GUID-4DEF1304-2A51-4207-BD9C-2AD38E1C9545">
+<h2><a name="GUID-4DEF1304-2A51-4207-BD9C-2AD38E1C9545"><!-- --></a>ステップ 1: インテル® MKL のインストール</h2>
+<a name="GUID-70C97BDA-B8E1-4514-A6F4-CFB475DC0388"><!-- --></a>
+<ul id="GUID-70C97BDA-B8E1-4514-A6F4-CFB475DC0388"><li>スイート製品からインストールする場合:<p>インテル® MKL は、次のスイート製品の一部としてインストールされます。<a name="GUID-CF89D5BB-4A04-423B-85DA-D0BEC21CAA46"><!-- --></a>
+<ul id="GUID-CF89D5BB-4A04-423B-85DA-D0BEC21CAA46"><li id="LI_AD830893E9994A7D96AB3BE030B51313"><a name="LI_AD830893E9994A7D96AB3BE030B51313"><!-- --></a>インテル® Parallel Studio XE <a href="http://software.intel.com/en-us/intel-parallel-studio-xe/try-buy" target="_blank">(ダウンロード)</a> (英語)
+</li>
+<li id="LI_F555FEAF21C94C8DB9ADD7E2B7AE323B"><a name="LI_F555FEAF21C94C8DB9ADD7E2B7AE323B"><!-- --></a>インテル® System Studio <a href="https://software.intel.com/en-us/system-studio/choose-download" target="_blank">(ダウンロード)</a> (英語)
+</li>
+</ul>
+</p>
+</li>
+<li>スタンドアロン・パッケージからインストールする場合:<p>インテル® MKL は、コミュニティー・ライセンス・プログラムの下で<a href="https://software.seek.intel.com/performance-libraries" target="_blank">スタンドアロン・パッケージ</a> (英語) としても提供されています。</p>
+</li>
+</ul>
+</div>
+<div id="GUID-34BF52E5-62E2-4E76-8327-275B2DDD001B">
+<h2><a name="GUID-34BF52E5-62E2-4E76-8327-275B2DDD001B"><!-- --></a>ステップ 2: 関数/ルーチンの選択</h2>
+<p>インテル® MKL ライブラリーから問題に最適な関数またはルーチンを選択します。以下のリソースを利用できます。
+<div class="tablenoborder"><a name="GUID-9A84EADF-2488-4C04-967D-63220929AC1D"><!-- --></a>
+<table cellpadding="4" summary="" id="GUID-9A84EADF-2488-4C04-967D-63220929AC1D" frame="border" border="1" cellspacing="0" rules="all"><tbody><tr><td class="cellrowborder" valign="top" width="NaN%"><p><a href="https://software.intel.com/en-us/mkl-linux-developer-guide" target="_blank">インテル® MKL デベロッパー・ガイド</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="NaN%"><p>次のようなトピックに関する詳細情報が含まれています。<a name="GUID-7305CDC2-C149-4A4B-8100-F27979D94D47"><!-- --></a>
+<ul id="GUID-7305CDC2-C149-4A4B-8100-F27979D94D47"><li>アプリケーションのコンパイルとリンク</li>
+<li>カスタム DLL のビルド</li>
+<li>スレッド化</li>
+<li>メモリー管理</li>
+</ul>
+</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="NaN%"><p><a href="https://software.intel.com/en-us/mkl-developer-reference-c" target="_blank">インテル® MKL デベロッパー・リファレンス - C 言語</a> (英語)</p>
+<p><a href="https://software.intel.com/en-us/mkl-developer-reference-fortran" target="_blank">インテル® MKL デベロッパー・リファレンス - Fortran 言語</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="NaN%"><p>すべてのライブラリー・ドメインの関数とインターフェイスの詳細な説明が記載されています。</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="NaN%"><p><a href="https://software.intel.com/en-us/articles/intel-mkl-function-finding-advisor" target="_blank">インテル® MKL 関数特定アドバイザー</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="NaN%"><p>LAPACK 関数検索アドバイザーを使用して、特定の問題に有用な LAPACK ルーチンを検索できます。例えば、次のように指定して検索できます。</p>
+<ul class="simple"><li>ルーチンタイプ: 計算</li>
+<li>計算問題: 直交因数分解</li>
+<li>行列タイプ: 一般</li>
+<li>操作: QR 因数分解の実行</li>
+<li>操作のその他の特性: ピボットを使用しない因数分解</li>
+</ul>
+<p>アドバイザーによって、条件に一致するいくつかのルーチンの説明が表示され、簡単に比較して適切なルーチンを選択できます。</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</p>
+</div>
+<div id="GUID-7616D4C4-9746-4A88-A6D4-28E2BC766E03">
+<h2><a name="GUID-7616D4C4-9746-4A88-A6D4-28E2BC766E03"><!-- --></a>ステップ 3: コードのリンク</h2>
+<p><a href="http://software.intel.com/en-us/articles/intel-mkl-link-line-advisor/" target="_blank">インテル® MKL リンクライン・アドバイザー</a> (英語) により、プログラムの機能に応じてリンク・コマンドラインを設定できます。</p>
+</div>
+<div id="GUID-A4897653-62A8-40E7-A5BA-D5D7C5B02BB1">
+<h2><a name="GUID-A4897653-62A8-40E7-A5BA-D5D7C5B02BB1"><!-- --></a>トレーニングとその他のドキュメント</h2>
+<p>製品の詳細については、以下のリソースを参照してください。</p>
+
+<div class="tablenoborder"><a name="GUID-85884FC6-561C-4D99-A939-89D3B3DFCFCA"><!-- --></a>
+<table cellpadding="4" summary="" id="GUID-85884FC6-561C-4D99-A939-89D3B3DFCFCA" frame="border" border="1" cellspacing="0" rules="all"><tbody><tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p>インテル® MKL トレーニング・コース</p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p><a href="https://software.intel.com/en-us/intel-mkl-support/training" target="_blank">https://software.intel.com/en-us/intel-mkl-support/training</a> (英語)</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p>チュートリアル: インテル® MKL を使用した行列乗算</p>
+<p><a href="http://software.intel.com/en-us/mkl-tutorial-for-c" target="_blank">C 言語</a> (英語)</p>
+<p><a href="http://software.intel.com/en-us/mkl-tutorial-for-fortran" target="_blank">Fortran 言語</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>インテル® MKL を使用した行列の乗算、行列乗算のパフォーマンス測定、スレッド化の制御を説明します。</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="https://software.intel.com/en-us/articles/intel-math-kernel-library-intel-mkl-2019-release-notes" target="_blank">インテル® MKL リリースノート</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>新機能と変更された機能など、インテル® MKL の最新リリースに関する情報と、リリースに関連する主なオンライン情報リソースへのリンクが掲載されています。以下の情報も含まれています。<a name="GUID-9A8AB89A-74FD-4FA4-AE10-5ACD68E4CB55"><!-- --></a>
+<ul id="GUID-9A8AB89A-74FD-4FA4-AE10-5ACD68E4CB55"><li id="LI_68DFE3263A3B45659F96DA6F7406FED4"><a name="LI_68DFE3263A3B45659F96DA6F7406FED4"><!-- --></a>このリリースの新機能
+</li>
+<li id="LI_3440DC30D825421E9E0BD1509921A223"><a name="LI_3440DC30D825421E9E0BD1509921A223"><!-- --></a>製品の内容
+</li>
+<li id="LI_FAD7566C045E467BA94C1A8B1A53EF64"><a name="LI_FAD7566C045E467BA94C1A8B1A53EF64"><!-- --></a>テクニカルサポートへの問い合わせ
+</li>
+<li id="LI_E8304D245A194665A30B0F1867ACF109"><a name="LI_E8304D245A194665A30B0F1867ACF109"><!-- --></a>ライセンスの定義
+</li>
+</ul>
+</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="http://software.intel.com/en-us/articles/intel-math-kernel-library-documentation" target="_blank"> その他のインテル® MKL ドキュメント</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>パフォーマンス・データ、サンプル、その他のドキュメントを入手できます。</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="http://software.intel.com/en-us/intel-mkl" target="_blank">インテル® MKL 製品ページ</a> (英語)</p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p> サポートとオンライン・ドキュメントに関する情報を入手できます。</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="https://www.xlsoft.com/jp/products/intel/tech/documents.html?tab=1" target="_blank">日本語最新ドキュメント</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>日本語の最新ドキュメントを入手できます。</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="https://www.isus.jp/" target="_blank">日本語最新情報</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>最新情報を日本語で参照できます。</p>
+</td>
+</tr></tbody>
+</table>
+</div>
+<div class="Note"><span class="notetitle">注:</span> <p>ドキュメントのオフラインバージョンは、次のリンクからダウンロードできます。(リンク先のページは英語ですが、ダウンロード zip には英語と日本語の両方のドキュメントが含まれています。)<a name="GUID-67DA58E1-9434-4F11-8A8E-EB989582A130"><!-- --></a>
+<ul id="GUID-67DA58E1-9434-4F11-8A8E-EB989582A130"><li><a href="https://software.intel.com/en-us/articles/download-documentation-intel-parallel-studio-xe-current-previous" target="_blank">インテル® Parallel Studio XE ドキュメント</a> (英語)</li>
+<li><a href="https://software.intel.com/en-us/articles/download-documentation-intel-system-studio-current-previous" target="_blank">インテル® System Studio ドキュメント</a> (英語)</li>
+</ul>
+</p>
+</div>
+</div>
+<div id="GUID-962A4793-352D-4ECD-BA69-47C411D27DB3">
+<h2><a name="GUID-962A4793-352D-4ECD-BA69-47C411D27DB3"><!-- --></a>著作権と商標について</h2>
+<p>Intel、インテル、Intel ロゴは、アメリカ合衆国および / またはその他の国における Intel Corporation またはその子会社の商標です。</p>
+<p>* その他の社名、製品名などは、一般に各社の表示、商標または登録商標です。</p>
+<p><strong>© 2015-2018 Intel Corporation.</strong></p>
+<p>本ソフトウェアおよび関連ドキュメントは、インテルが著作権を有する著作物であり、その使用には付随する明示的なライセンス (<strong>「ライセンス」</strong>) が適用されます。ライセンスで特に明記されていない限り、インテルから書面による許可を得た場合を除き、本ソフトウェアまたは関連ドキュメントを使用、改変、複製、公表、配布、公開することはできません。</p>
+<p>本ソフトウェアおよび関連ドキュメントは現状のまま提供され、ライセンスに明記されているものを除き、明示されているか否かにかかわらず、いかなる保証もいたしません。</p>
+
+<div class="tablenoborder"><a name="GUID-1DA83E09-7FD2-445B-88ED-6AB041634EE3"><!-- --></a>
+<table cellpadding="4" summary="" id="GUID-1DA83E09-7FD2-445B-88ED-6AB041634EE3" frame="border" border="1" cellspacing="0" rules="all"><thead align="left"><tr><th class="cellrowborder" align="left" valign="top" width="100%" id="d29e267"><p id="d216e67">最適化に関する注意事項</p>
+</th>
+</tr>
+</thead>
+<tbody><tr><td class="bgcolor(#f5f5f5)" bgcolor="#f5f5f5" valign="top" width="100%" headers="d29e267 "><p>インテル® コンパイラーでは、インテル® マイクロプロセッサーに限定されない最適化に関して、他社製マイクロプロセッサー用に同等の最適化を行えないことがあります。これには、インテル® ストリーミング SIMD 拡張命令 2、インテル® ストリーミング SIMD 拡張命令 3、インテル® ストリーミング SIMD 拡張命令 3 補足命令などの最適化が該当します。インテルは、他社製マイクロプロセッサーに関して、いかなる最適化の利用、機能、または効果も保証いたしません。本製品のマイクロプロセッサー依存の最適化は、インテル® マイクロプロセッサーでの使用を前提としています。インテル® マイクロアーキテクチャーに限定されない最適化のなかにも、インテル® マイクロプロセッサー用のものがあります。この注意事項で言及した命令セットの詳細については、該当する製品のユーザー・リファレンス・ガイドを参照してください。</p>
+<p>注意事項の改訂 #20110804</p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+</body>
+</html>

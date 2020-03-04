@@ -1,0 +1,13 @@
+#!/bin/bash
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+
+if [ x"$RPM_INSTALL_PREFIX" = x"" ]; then
+    export RPM_INSTALL_PREFIX="/opt/intel"
+fi
+
+PSXE_LINK_INSTALL=${RPM_INSTALL_PREFIX}/parallel_studio_xe_2019.5.075/uninstall/.setup_psxe_symlinks.sh
+if [ -x "${PSXE_LINK_INSTALL}" ]; then
+    ${PSXE_LINK_INSTALL} --erase --psxe-root ${RPM_INSTALL_PREFIX} --cnl-root ${RPM_INSTALL_PREFIX} 2>&1 1>/dev/null
+fi
+
+exit 0

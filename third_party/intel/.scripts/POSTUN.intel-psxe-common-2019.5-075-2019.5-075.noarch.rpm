@@ -1,0 +1,19 @@
+#!/bin/sh
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+
+if [ x"$RPM_INSTALL_PREFIX" = x"" ]; then
+    export RPM_INSTALL_PREFIX="/opt/intel"
+fi
+
+cd "${RPM_INSTALL_PREFIX}"
+LINK_NAME=parallel_studio_xe_2019
+rm -f "${LINK_NAME}"
+
+# After uninstallation, the link should point to the latest installed version
+TARGET=`ls -1 parallel_studio_xe_2019.*/psxevars.sh 2>/dev/null | sed 's/\/psxevars.sh//g' | sort | tail -1`
+if [ -n "${TARGET}" ]; then
+    ln -sfT "${TARGET}" "${LINK_NAME}"
+fi
+cd - > /dev/null
+
+exit 0

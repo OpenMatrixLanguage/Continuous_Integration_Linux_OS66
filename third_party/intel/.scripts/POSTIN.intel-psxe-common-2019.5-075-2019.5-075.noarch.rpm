@@ -1,0 +1,42 @@
+#!/bin/bash
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+LANG=C
+
+if [ x"$RPM_INSTALL_PREFIX" = x"" ]; then
+    export RPM_INSTALL_PREFIX="/opt/intel"
+fi
+
+patch_file()
+{
+    file_to_patch="${4}/${1}"
+    template="$2"
+    var="$3"
+    if [ -f "$file_to_patch" -a ! -h "$file_to_patch" -a -w "$file_to_patch" ]; then
+        cp -p "$file_to_patch" "$file_to_patch.old~"
+        cat "$file_to_patch.old~" | \
+            sed s@$template@$var@g \
+    	    > "$file_to_patch.new~"
+	cp -p "$file_to_patch.new~" "$file_to_patch"
+        chmod 755 "$file_to_patch"
+        rm -f "$file_to_patch.new~" "$file_to_patch.old~"
+    fi
+}
+
+for file in "${RPM_INSTALL_PREFIX}"/parallel_studio_xe_2019.5.075/bin/psxevars.*
+do
+    patch_file "$file" "%INSTALLDIR%" "${RPM_INSTALL_PREFIX}/parallel_studio_xe_2019.5.075"
+    patch_file "$file" "%INSTALLDIR_ROOT%" "${RPM_INSTALL_PREFIX}"
+done
+
+cd "${RPM_INSTALL_PREFIX}"
+LINK_NAME=parallel_studio_xe_2019
+TARGET=parallel_studio_xe_2019.5.075
+ln -sfT "${TARGET}" "${LINK_NAME}"
+cd - > /dev/null
+
+PSXE_LINK_INSTALL=${RPM_INSTALL_PREFIX}/parallel_studio_xe_2019.5.075/uninstall/.setup_psxe_symlinks.sh
+if [ -x "${PSXE_LINK_INSTALL}" ]; then
+    ${PSXE_LINK_INSTALL} --psxe-root ${RPM_INSTALL_PREFIX} --cnl-root ${RPM_INSTALL_PREFIX} 2>&1 1>/dev/null
+fi
+
+exit 0

@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en-us" lang="en-us">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="DC.Type" content="topic"/>
+<meta name="DC.Title" content="Get Started with Intel® Math Kernel Library 2019 for Linux*"/>
+<meta name="prodname" content="Intel® Math Kernel Library Developer Reference"/>
+<meta name="version" content="-000"/>
+<meta name="release" content="2018"/>
+<meta name="DC.Format" content="XHTML"/>
+<meta name="DC.Identifier" content="get_started_lnx"/>
+<meta name="DC.Language" content="en-US"/>
+<link rel="stylesheet" type="text/css" href="resources/intel_gsp_styles.css"/>
+<title>Get Started with Intel® Math Kernel Library 2019 for Linux*</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge;chrome=1"/>
+<!-- BEGIN SCRIPTS FOR EXPAND/COLLAPSE FUNCTIONALITY -->
+<script src="resources/jquery-1.11.1.min.js"><!----></script>
+<script src="resources/hide-show.js"><!----></script>
+<!-- END SCRIPTS FOR EXPAND/COLLAPSE FUNCTIONALITY -->
+<!-- Prism script to support syntax highlighting-->
+<script src="resources/prism/prism.js"><!----></script>
+
+<!-- prism.css stylesheet to support syntax highlighting-->
+<link href="resources/prism/prism.css" rel="stylesheet"/>
+</head>
+<body class="titlepage" id="get_started_lnx"><a name="get_started_lnx"><!-- --></a>
+
+
+<div id="banner">
+<div id="bannerblock">
+<img src="resources/intel_logo.png" class="intellogo" alt="Intel logo"/>
+<!--No product image to be included-->
+<h1 class="title">Get Started with Intel® Math Kernel Library 
+    2019 for 
+      Linux*</h1>
+</div>
+</div>
+<div id="contentblock">
+<div id="mainmenu"><h3>Contents</h3><p><a class="mainmenulinks" href="#GUID-59727C1B-D89C-49C6-BF2A-284A6DD288DC"/></p>
+<p><a class="mainmenulinks" href="#GUID-08C9227A-D52E-4BBA-B0DF-FC862855B38F">Prerequisites</a></p>
+<p><a class="mainmenulinks" href="#GUID-4DEF1304-2A51-4207-BD9C-2AD38E1C9545">Step 1: Install Intel MKL</a></p>
+<p><a class="mainmenulinks" href="#GUID-34BF52E5-62E2-4E76-8327-275B2DDD001B">Step 2: Select a function/routine</a></p>
+<p><a class="mainmenulinks" href="#GUID-7616D4C4-9746-4A88-A6D4-28E2BC766E03">Step 3: Link your code</a></p>
+<p><a class="mainmenulinks" href="#GUID-A4897653-62A8-40E7-A5BA-D5D7C5B02BB1">Training and Additional Documentation</a></p>
+<p><a class="mainmenulinks" href="#GUID-962A4793-352D-4ECD-BA69-47C411D27DB3"> Legal Information</a></p>
+</div>
+<div id="GUID-59727C1B-D89C-49C6-BF2A-284A6DD288DC"><p> Intel® Math Kernel Library (Intel® MKL) helps you achieve maximum performance with a math computing library of highly optimized, extensively threaded routines. The library has C and Fortran interfaces for most routines. You can also find comprehensive support for several math operations including: 
+      <a name="GUID-E35A95DC-249C-4EF7-A446-2A60846B8B57"><!-- --></a>
+<ul id="GUID-E35A95DC-249C-4EF7-A446-2A60846B8B57"><li>Linear algebra 
+        </li>
+<li>Fast Fourier transforms (FFT) 
+        </li>
+<li>Vector math 
+        </li>
+<li>Direct and iterative sparse solvers 
+        </li>
+<li>Random number generators 
+        </li>
+</ul>
+</p>
+</div>
+<div id="GUID-08C9227A-D52E-4BBA-B0DF-FC862855B38F">
+<h2><a name="GUID-08C9227A-D52E-4BBA-B0DF-FC862855B38F"><!-- --></a>Prerequisites</h2>
+<p><a href="https://software.intel.com/en-us/articles/intel-math-kernel-library-intel-mkl-2019-system-requirements" target="_blank">System Requirements</a></p>
+</div>
+<div id="GUID-4DEF1304-2A51-4207-BD9C-2AD38E1C9545">
+<h2><a name="GUID-4DEF1304-2A51-4207-BD9C-2AD38E1C9545"><!-- --></a>Step 1: Install Intel MKL</h2>
+<a name="GUID-70C97BDA-B8E1-4514-A6F4-CFB475DC0388"><!-- --></a>
+<ul id="GUID-70C97BDA-B8E1-4514-A6F4-CFB475DC0388"><li>From an application suite: 
+          <p>Intel MKL installs as a part of these suites: 
+          <a name="GUID-CF89D5BB-4A04-423B-85DA-D0BEC21CAA46"><!-- --></a>
+<ul id="GUID-CF89D5BB-4A04-423B-85DA-D0BEC21CAA46"><li id="LI_AD830893E9994A7D96AB3BE030B51313"><a name="LI_AD830893E9994A7D96AB3BE030B51313"><!-- --></a>
+<p>Intel® Parallel Studio XE 
+                <a href="http://software.intel.com/en-us/intel-parallel-studio-xe/try-buy" target="_blank">(download from this page)</a></p>
+</li>
+<li id="LI_F555FEAF21C94C8DB9ADD7E2B7AE323B"><a name="LI_F555FEAF21C94C8DB9ADD7E2B7AE323B"><!-- --></a>
+<p>Intel® System Studio 
+                <a href="https://software.intel.com/en-us/system-studio/choose-download" target="_blank">(download from this page)</a></p>
+</li>
+</ul>
+</p>
+</li>
+<li>From a repository: 
+          <p>Download Intel MKL from one of these 
+            <a href="https://software.intel.com/en-us/articles/how-to-get-intel-mklippdaal" target="_blank">repositories</a>. 
+          </p>
+</li>
+<li>As a standalone package: 
+          <p>Intel MKL is also provided as a 
+            <a href="https://software.seek.intel.com/performance-libraries" target="_blank">standalone package</a> under the Community Licensing Program. 
+          </p>
+</li>
+</ul>
+</div>
+<div id="GUID-34BF52E5-62E2-4E76-8327-275B2DDD001B">
+<h2><a name="GUID-34BF52E5-62E2-4E76-8327-275B2DDD001B"><!-- --></a>Step 2: Select a function/routine</h2>
+<p>Select a function or routine from the Intel MKL library that is best suited for your problem. Use these resources: 
+      
+<div class="tablenoborder"><a name="GUID-9A84EADF-2488-4C04-967D-63220929AC1D"><!-- --></a>
+<table cellpadding="4" summary="" id="GUID-9A84EADF-2488-4C04-967D-63220929AC1D" frame="border" border="1" cellspacing="0" rules="all"><tbody><tr><td class="cellrowborder" valign="top" width="NaN%"><p><a href="https://software.intel.com/en-us/mkl-linux-developer-guide" target="_blank">Intel® MKL Developer Guide</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="NaN%"><p>The Developer Guide contains detailed information on several topics including: 
+                <a name="GUID-7305CDC2-C149-4A4B-8100-F27979D94D47"><!-- --></a>
+<ul id="GUID-7305CDC2-C149-4A4B-8100-F27979D94D47"><li>Compiling and linking applications 
+                  </li>
+<li> Building custom DLLs 
+                  </li>
+<li>Threading 
+                  </li>
+<li>Memory management 
+                  </li>
+</ul>
+</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="NaN%"><p><a href="https://software.intel.com/en-us/mkl-developer-reference-c" target="_blank">Intel® MKL Developer Reference - C Language</a></p>
+<p><a href="https://software.intel.com/en-us/mkl-developer-reference-fortran" target="_blank">Intel® MKL Developer Reference - Fortran Language</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="NaN%"><p>The Developer Reference (in C and Fortran formats) contains detailed descriptions of the functions and interfaces for all library domains. 
+                </p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="NaN%"><p><a href="https://software.intel.com/en-us/articles/intel-mkl-function-finding-advisor" target="_blank">Intel Math Kernel Library Function Finding Advisor</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="NaN%"><p>Use the LAPACK Function Finding Advisor to explore LAPACK routines that are useful for a particular problem. For example, if you specify an operation as: 
+                </p>
+<ul class="simple"><li>Routine type: Computational 
+                  </li>
+<li>Computational problem: orthogonal factorization 
+                  </li>
+<li>Matrix type: general 
+                  </li>
+<li>Operation: perform QR factorization 
+                  </li>
+<li>Additional property of the operation: factorize without pivoting 
+                  </li>
+</ul>
+<p>The advisor displays the descriptions of several routines that match the requested operation. You can compare the results and select an appropriate routine for the operation. 
+                </p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</p>
+</div>
+<div id="GUID-7616D4C4-9746-4A88-A6D4-28E2BC766E03">
+<h2><a name="GUID-7616D4C4-9746-4A88-A6D4-28E2BC766E03"><!-- --></a>Step 3: Link your code</h2>
+<p>Use the 
+        <a href="http://software.intel.com/en-us/articles/intel-mkl-link-line-advisor/" target="_blank">Intel MKL Link Line Advisor</a> to configure the link command according to your program features. 
+      </p>
+</div>
+<div id="GUID-A4897653-62A8-40E7-A5BA-D5D7C5B02BB1">
+<h2><a name="GUID-A4897653-62A8-40E7-A5BA-D5D7C5B02BB1"><!-- --></a>Training and Additional Documentation</h2>
+<p>Use these resources to learn more about Intel MKL: 
+      </p>
+
+<div class="tablenoborder"><a name="GUID-85884FC6-561C-4D99-A939-89D3B3DFCFCA"><!-- --></a>
+<table cellpadding="4" summary="" id="GUID-85884FC6-561C-4D99-A939-89D3B3DFCFCA" frame="border" border="1" cellspacing="0" rules="all"><tbody><tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p>Intel MKL Training courses 
+                </p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p><a href="https://software.intel.com/en-us/intel-mkl-support/training" target="_blank">https://software.intel.com/en-us/intel-mkl-support/training</a></p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p> Tutorial: Using Intel® Math Kernel Library for Matrix Multiplication 
+                </p>
+<p><a href="http://software.intel.com/en-us/mkl-tutorial-for-c" target="_blank">Tutorial - C Language</a></p>
+<p><a href="http://software.intel.com/en-us/mkl-tutorial-for-fortran" target="_blank">Tutorial - Fortran Language</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p> This tutorial demonstrates how you can use Intel MKL to multiply matrices, measure the performance of matrix multiplication, and control threading. 
+                </p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="https://software.intel.com/en-us/articles/intel-math-kernel-library-release-notes-and-new-features" target="_blank">Intel® MKL 
+                     Release Notes</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>The release notes contain information specific to the latest release of Intel MKL including new and changed features. The release notes include links to principal online information resources related to the release. You can also find information on: 
+                <a name="GUID-9A8AB89A-74FD-4FA4-AE10-5ACD68E4CB55"><!-- --></a>
+<ul id="GUID-9A8AB89A-74FD-4FA4-AE10-5ACD68E4CB55"><li id="LI_68DFE3263A3B45659F96DA6F7406FED4"><a name="LI_68DFE3263A3B45659F96DA6F7406FED4"><!-- --></a>
+<p>What's New in the Release 
+                    </p>
+</li>
+<li id="LI_3440DC30D825421E9E0BD1509921A223"><a name="LI_3440DC30D825421E9E0BD1509921A223"><!-- --></a>
+<p>Product Contents 
+                    </p>
+</li>
+<li id="LI_FAD7566C045E467BA94C1A8B1A53EF64"><a name="LI_FAD7566C045E467BA94C1A8B1A53EF64"><!-- --></a>
+<p>Obtaining Technical Support 
+                    </p>
+</li>
+<li id="LI_E8304D245A194665A30B0F1867ACF109"><a name="LI_E8304D245A194665A30B0F1867ACF109"><!-- --></a>
+<p>License Definitions 
+                    </p>
+</li>
+</ul>
+</p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="http://software.intel.com/en-us/articles/intel-math-kernel-library-documentation" target="_blank"> Other Intel MKL Documentation</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p> Related documentation, such as performance data, application notes, and examples. 
+                </p>
+</td>
+</tr>
+<tr><td class="cellrowborder" valign="top" width="33.78378378378378%"><p><a href="http://software.intel.com/en-us/intel-mkl" target="_blank">Intel® Math Kernel Library</a></p>
+</td>
+<td class="cellrowborder" valign="top" width="66.21621621621621%"><p>The Intel MKL product page. See this page for support and online documentation. 
+                </p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="Note"><span class="notetitle">Note:</span> <p>To access the documentation offline, you can download it from: 
+        <a name="GUID-67DA58E1-9434-4F11-8A8E-EB989582A130"><!-- --></a>
+<ul id="GUID-67DA58E1-9434-4F11-8A8E-EB989582A130"><li><a href="https://software.intel.com/en-us/articles/download-documentation-intel-parallel-studio-xe-current-previous" target="_blank">Intel® Parallel Studio XE Documentation</a></li>
+<li><a href="https://software.intel.com/en-us/articles/download-documentation-intel-system-studio-current-previous" target="_blank">Intel® System Studio Documentation</a></li>
+</ul>
+</p>
+</div>
+</div>
+<div id="GUID-962A4793-352D-4ECD-BA69-47C411D27DB3">
+<h2><a name="GUID-962A4793-352D-4ECD-BA69-47C411D27DB3"><!-- --></a> Legal Information</h2>
+<p>Intel, the Intel logo, Intel Atom, Intel Core, Intel Xeon Phi, VTune and Xeon are trademarks of Intel Corporation in the U.S. and/or other countries. 
+    </p>
+<p>*Other names and brands may be claimed as the property of others. 
+    </p>
+<p><strong>Copyright 2015-2019, Intel Corporation.</strong></p>
+<p> This software and the related documents are Intel copyrighted materials, and your use of them is governed by the express license under which they were provided to you (<strong>License</strong>). Unless the License provides otherwise, you may not use, modify, copy, publish, distribute, disclose or transmit this software or the related documents without Intel's prior written permission. 
+    </p>
+<p> This software and the related documents are provided as is, with no express or implied warranties, other than those that are expressly stated in the License. 
+    </p>
+
+<div class="tablenoborder"><a name="GUID-1DA83E09-7FD2-445B-88ED-6AB041634EE3"><!-- --></a>
+<table cellpadding="4" summary="" id="GUID-1DA83E09-7FD2-445B-88ED-6AB041634EE3" frame="border" border="1" cellspacing="0" rules="all"><thead align="left"><tr><th class="cellrowborder" align="left" valign="top" width="100%" id="d29e273"><p id="d222e52">Optimization Notice 
+              </p>
+</th>
+</tr>
+</thead>
+<tbody><tr><td class="bgcolor(#f5f5f5)" bgcolor="#f5f5f5" valign="top" width="100%" headers="d29e273 "><p>Intel's compilers may or may not optimize to the same degree
+                for non-Intel microprocessors for optimizations that are not unique to Intel
+                microprocessors. These optimizations include SSE2, SSE3, and SSSE3 instruction
+                sets and other optimizations. Intel does not guarantee the availability,
+                functionality, or effectiveness of any optimization on microprocessors not
+                manufactured by Intel. Microprocessor-dependent optimizations in this product
+                are intended for use with Intel microprocessors. Certain optimizations not
+                specific to Intel microarchitecture are reserved for Intel microprocessors.
+                Please refer to the applicable product User and Reference Guides for more
+                information regarding the specific instruction sets covered by this notice. 
+              </p>
+<p> Notice revision #20110804 
+              </p>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+</body>
+</html>

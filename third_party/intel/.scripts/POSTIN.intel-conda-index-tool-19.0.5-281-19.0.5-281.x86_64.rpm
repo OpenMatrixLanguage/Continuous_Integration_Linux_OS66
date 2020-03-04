@@ -1,0 +1,17 @@
+#!/bin/sh
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+LANG=C
+
+if [ x"$RPM_INSTALL_PREFIX" = x"" ]; then
+    export RPM_INSTALL_PREFIX="/opt/intel"
+fi
+
+CONDA_CHANNEL_BIN_DIR="${RPM_INSTALL_PREFIX}/conda_channel/bin"
+
+if [ ! -d "${CONDA_CHANNEL_BIN_DIR}" ]; then
+    mkdir -p "${CONDA_CHANNEL_BIN_DIR}"
+fi
+ 
+cp "${RPM_INSTALL_PREFIX}/compilers_and_libraries_2019.5.281/linux/bin/conda-index-tool" "${CONDA_CHANNEL_BIN_DIR}" 2>&1 1>/dev/null
+
+exit 0

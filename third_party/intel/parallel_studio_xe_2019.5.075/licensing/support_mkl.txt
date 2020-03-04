@@ -1,0 +1,9 @@
+Package ID: l_mkl_2019.5.075
+
+Package Contents:
+	Intel(R) Math Kernel Library 2019 Update 5 for Linux*
+
+Please use the above information when submitting customer support requests.
+For Technical Support, Product Updates, tips and tricks, and other support information, please contact the Intel technical consulting engineer who granted you access to this package.
+
+You need a valid license to use this product.
