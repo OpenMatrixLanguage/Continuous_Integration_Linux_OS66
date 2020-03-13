@@ -1,0 +1,3 @@
+#!/bin/sh
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+exit 0

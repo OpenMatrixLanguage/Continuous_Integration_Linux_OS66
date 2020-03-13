@@ -1,0 +1,39 @@
+#!/bin/sh
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+replace_pattern() {
+    local pattern="$1"
+    local INSTALL_FILE="$2"
+    expr="$3"
+
+    tdir=$(echo "$expr" | sed -e"s/\// /g")
+    local newexpr=""
+    local dirn
+    for dirn in $tdir; do
+        [ "x$dirn" = "x" ] || newexpr="$newexpr\/$dirn"
+    done
+    cp "$INSTALL_FILE" "$INSTALL_FILE.old" 2>&1 1>/dev/null
+    local lrst=$?
+    if [ "x$lrst" = "x0" ]; then
+	sed s/\<${pattern}\>/$newexpr/g "$INSTALL_FILE.old" 2>/dev/null 1>"$INSTALL_FILE"
+	lrst=$?
+	if [ "x$lrst" != "x0" ]; then
+	    rm -f "$INSTALL_FILE" 2>&1 1>/dev/null
+	    mv -f "$INSTALL_FILE.old" "$INSTALL_FILE" 2>&1 1>/dev/null
+	else
+	    rm -f "$INSTALL_FILE.old" 2>&1 1>/dev/null
+	fi
+    fi
+}
+
+if [ X"$RPM_INSTALL_PREFIX" = X"" ]; then
+    RPM_INSTALL_PREFIX=/opt/intel
+fi
+RPM_INSTALL_PREFIX=${RPM_INSTALL_PREFIX}/compilers_and_libraries_2019.5.281/linux
+
+INSTALL_SED_STR="INSTALLDIR"
+
+for FILE in $(find "${RPM_INSTALL_PREFIX}/mkl/bin/" 2>/dev/null | grep mklvars); do
+    replace_pattern "$INSTALL_SED_STR" "$FILE" "$RPM_INSTALL_PREFIX"
+done
+
+exit 0

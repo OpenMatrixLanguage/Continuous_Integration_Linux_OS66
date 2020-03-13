@@ -1,0 +1,23 @@
+#!/bin/sh
+RPM_INSTALL_PREFIX=/users/banspach/oss/third_party/intel
+if [ X"$RPM_INSTALL_PREFIX" = X"" ]; then
+    RPM_INSTALL_PREFIX=/opt/intel
+fi
+
+SUBDIR=$(echo "${RPM_INSTALL_PREFIX}" | sed 's/^.*\///g' 2>/dev/null)
+if [ -d "${RPM_INSTALL_PREFIX}/${SUBDIR}" ]; then
+	rmdir --ignore-fail-on-non-empty "${RPM_INSTALL_PREFIX}/${SUBDIR}" 2>&1 1>/dev/null
+fi
+
+CONDA_CHANNEL_DIR=${RPM_INSTALL_PREFIX}/conda_channel
+
+if [ ! -d ${CONDA_CHANNEL_DIR}/noarch ] ; then
+    mkdir ${CONDA_CHANNEL_DIR}/noarch
+fi
+
+CONDA_INDEX_TOOL="${CONDA_CHANNEL_DIR}/bin/conda-index-tool"
+if [ -e "${CONDA_INDEX_TOOL}" ] ; then
+    "${CONDA_INDEX_TOOL}" ${CONDA_CHANNEL_DIR}/linux-64 ${CONDA_CHANNEL_DIR}/linux-32 ${CONDA_CHANNEL_DIR}/noarch >/dev/null 2>&1
+fi
+
+exit 0

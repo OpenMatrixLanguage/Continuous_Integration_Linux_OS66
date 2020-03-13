@@ -1,0 +1,43 @@
+;===============================================================================
+; Copyright 2006-2019 Intel Corporation.
+;
+; This software and the related documents are Intel copyrighted  materials,  and
+; your use of  them is  governed by the  express license  under which  they were
+; provided to you (License).  Unless the License provides otherwise, you may not
+; use, modify, copy, publish, distribute,  disclose or transmit this software or
+; the related documents without Intel's prior written permission.
+;
+; This software and the related documents  are provided as  is,  with no express
+; or implied  warranties,  other  than those  that are  expressly stated  in the
+; License.
+;===============================================================================
+
+mkl_ddiamv_
+mkl_ddiamm_
+mkl_ddiasv_
+mkl_ddiasm_
+mkl_dskymm_
+mkl_dskysv_
+mkl_dskymv_
+mkl_dskysm_
+mkl_dcoomm_
+mkl_dcoomv_
+mkl_dcoosm_
+mkl_dcoosv_
+mkl_dcscmm_
+mkl_dcscmv_
+mkl_dcscsm_
+mkl_dcscsv_
+mkl_dcsrmm_
+mkl_dcsrmv_
+mkl_dcsrsm_
+mkl_dcsrsv_
+mkl_dcsrgemv_
+mkl_dcsrsymv_
+mkl_dcsrtrsv_
+mkl_dcoosymv_
+mkl_dcoogemv_
+mkl_dcootrsv_
+mkl_ddiasymv_
+mkl_ddiagemv_
+mkl_ddiatrsv_
