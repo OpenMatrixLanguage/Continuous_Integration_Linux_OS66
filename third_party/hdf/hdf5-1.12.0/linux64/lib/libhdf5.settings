@@ -1,0 +1,88 @@
+        SUMMARY OF THE HDF5 CONFIGURATION
+        =================================
+
+General Information:
+-------------------
+                   HDF5 Version: 1.12.0
+                  Configured on: 2020-10-06
+                  Configured by: Unix Makefiles
+                    Host system: Linux-4.13.0-46-generic
+              Uname information: Linux
+                       Byte sex: little-endian
+             Installation point: /home/jenkins/temp/hdf_build/CMake-hdf5-1.12.0-release/HDF_Group/HDF5/1.12.0
+
+Compiling Options:
+------------------
+                     Build Mode: Release
+              Debugging Symbols: OFF
+                        Asserts: OFF
+                      Profiling: OFF
+             Optimization Level: OFF
+
+Linking Options:
+----------------
+                      Libraries: 
+  Statically Linked Executables: OFF
+                        LDFLAGS: 
+                     H5_LDFLAGS: 
+                     AM_LDFLAGS: 
+                Extra libraries: m;dl
+                       Archiver: /opt/rh/devtoolset-8/root/usr/bin/ar
+                         Ranlib: /opt/rh/devtoolset-8/root/usr/bin/ranlib
+
+Languages:
+----------
+                              C: YES
+                     C Compiler: /opt/rh/devtoolset-8/root/usr/bin/cc 8.3.1
+                       CPPFLAGS: 
+                    H5_CPPFLAGS: 
+                    AM_CPPFLAGS: 
+                         CFLAGS:   -std=c99 -Wl,-z,nodelete -fstdarg-opt  -Wall -Wcast-qual -Wconversion -Wextra -Wfloat-equal -Wformat=2 -Winit-self -Winvalid-pch -Wmissing-include-dirs -Wno-c++-compat -Wno-format-nonliteral -Wshadow -Wundef -Wwrite-strings -pedantic  -Wbad-function-cast -Wcast-align -Wdeclaration-after-statement -Wdisabled-optimization -Wmissing-declarations -Wmissing-prototypes -Wnested-externs -Wold-style-definition -Wpacked -Wredundant-decls -Wstrict-prototypes -Wswitch-enum -Wswitch-default -Wunused-macros -Wunsafe-loop-optimizations -finline-functions  -Wno-aggregate-return -Wno-inline -Wno-missing-format-attribute -Wno-missing-noreturn -Wno-unsuffixed-float-constants  -Wlogical-op -Wlarger-than=2560 -Wvla -Wsync-nand -Wframe-larger-than=16384 -Wpacked-bitfield-compat -Wstrict-overflow=5 -Wjump-misses-init  -Wdouble-promotion -Wtrampolines -Wno-suggest-attribute=const -Wstack-usage=8192 -Wvector-operation-performance -Wno-suggest-attribute=pure -Wno-suggest-attribute=noreturn -Wno-suggest-attribute=format -Wdate-time -fmessage-length=0
+                      H5_CFLAGS: 
+                      AM_CFLAGS: 
+               Shared C Library: YES
+               Static C Library: YES
+
+                        Fortran: OFF
+               Fortran Compiler:  
+                  Fortran Flags: 
+               H5 Fortran Flags: 
+               AM Fortran Flags: 
+         Shared Fortran Library: YES
+         Static Fortran Library: YES
+
+                            C++: ON
+                   C++ Compiler: /opt/rh/devtoolset-8/root/usr/bin/c++ 8.3.1
+                      C++ Flags:  
+                   H5 C++ Flags: 
+                   AM C++ Flags: 
+             Shared C++ Library: YES
+             Static C++ Library: YES
+
+                            JAVA: OFF
+                 JAVA Compiler:  
+
+Features:
+---------
+                   Parallel HDF5: OFF
+Parallel Filtered Dataset Writes: 
+              Large Parallel I/O: 
+              High-level library: ON
+                Build HDF5 Tests: ON
+                Build HDF5 Tools: ON
+                    Threadsafety: ON
+             Default API mapping: v112
+  With deprecated public symbols: ON
+          I/O filters (external):  DEFLATE DECODE
+                             MPE: 
+                      Direct VFD: 
+              (Read-Only) S3 VFD: 
+            (Read-Only) HDFS VFD: 
+                         dmalloc: 
+  Packages w/ extra debug output: 
+                     API Tracing: OFF
+            Using memory checker: OFF
+ Memory allocation sanity checks: OFF
+          Function Stack Tracing: OFF
+       Strict File Format Checks: OFF
+    Optimization Instrumentation: 
